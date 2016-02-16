@@ -1,5 +1,143 @@
 @import 'variables';
+@import 'fonts';
+
+header{
+
+	text-align:center;
+
+	img{
+		width:100%;
+	}
+}
 
 body{
-	background-color: $primary-color;
+	background-color: white;
+	position:relative;
+}
+
+.navigation{
+
+	text-align:center;
+	position:relative;
+	background: #fff;
+	margin-bottom: -70px;
+
+	a{
+		padding:0 8px 0 8px;
+		text-decoration:none;
+		color:black;
+		font-family: 'camptonlight_demo';
+	}
+}
+
+#line{
+	border-bottom: 2px solid #f5f5f5;
+	margin-top:10px;
+
+	img{
+		margin-bottom:-30px;
+		width:12%;
+	}
+}
+
+.header, .navigation-scrolled{
+	position: fixed;
+  	width: 100%;
+  	top: 0;
+}
+
+.homepage-main{
+	
+	h1{
+		text-align:center;
+		font-family: 'camptonbold_demo';
+		color:$primary-color;
+		font-size:1.8em;
+		margin: 160px 0 80px 0;
+	}
+
+	h2{
+		font-size:1.3em;
+		margin: 100px 20px 80px 120px;
+
+	}
+
+	img{
+		width:25%;
+		float:left;
+		margin:20px 0 0 10px;
+	}
+
+}
+
+.homepage-services{
+	width:70%;
+	margin:0 auto;
+
+	img{
+		width:75%;
+		margin-left:50%;
+	}
+
+	p{
+		text-align:center;
+		margin:120px 0 0 55px;
+		width:100%;
+	}
+
+	:hover{
+		text-decoration:underline;
+	}
+}
+
+.footer{
+	
+	background-color:#f0f1f2;
+
+	h2{
+		text-transform:uppercase;
+		font-family: 'camptonlight_demo';
+		text-align:center;
+		padding: 50px 0 30px 0;
+	}
+
+	span{
+		font-family: 'camptonbold_demo';
+		color:black;
+		text-decoration:none;
+	}
+
+	p{
+		font-family: 'camptonlight_demo';
+		text-align:center;
+	}
+
+	img{
+		width:10%;
+		display:inline-block;
+		margin-left:1%;
+
+	}
+
+}
+
+.footer-social{
+	text-align:center;
+}
+
+.copyright{
+	background-color:$secondary-color;
+	height:30px;
+
+	p{
+		color:white;
+		font-size:.8em;
+		padding:10px 0 0 10px;
+		text-align:left;
+	}
+
+	span{
+		font-family:'arial';
+		color:white;
+	}
 }
