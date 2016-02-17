@@ -10,10 +10,17 @@
   src: url("../fonts/campton/campton-lightdemo-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/campton/campton-lightdemo-webfont.woff2") format("woff2"), url("../fonts/campton/campton-lightdemo-webfont.woff") format("woff"), url("../fonts/campton/campton-lightdemo-webfont.ttf") format("truetype"), url("../fonts/campton/campton-lightdemo-webfont.svg#camptonlight_demo") format("svg");
   font-weight: normal;
   font-style: normal; }
+/* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+   GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+   GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */
+a {
+  text-decoration: none; }
+
 header {
   text-align: center; }
   header img {
-    width: 100%; }
+    width: 400px;
+    margin: -30px 0 -30px 0; }
 
 body {
   background-color: white;
@@ -23,70 +30,44 @@ body {
   text-align: center;
   position: relative;
   background: #fff;
-  margin-bottom: -70px; }
+  margin-bottom: -70px;
+  z-index: 200; }
   .navigation a {
     padding: 0 8px 0 8px;
     text-decoration: none;
     color: black;
-    font-family: 'camptonlight_demo'; }
+    font-family: "camptonlight_demo"; }
 
 #line {
-  border-bottom: 2px solid #f5f5f5;
+  box-shadow: 0px 1px 1px #bfbfbf;
   margin-top: 10px; }
   #line img {
-    margin-bottom: -30px;
-    width: 12%; }
+    margin-bottom: -31px;
+    width: 50px; }
 
 .header, .navigation-scrolled {
   position: fixed;
   width: 100%;
   top: 0; }
 
-.homepage-main h1 {
-  text-align: center;
-  font-family: 'camptonbold_demo';
-  color: #483d8b;
-  font-size: 1.8em;
-  margin: 160px 0 80px 0; }
-.homepage-main h2 {
-  font-size: 1.3em;
-  margin: 100px 20px 80px 120px; }
-.homepage-main img {
-  width: 25%;
-  float: left;
-  margin: 20px 0 0 10px; }
-
-.homepage-services {
-  width: 70%;
-  margin: 0 auto; }
-  .homepage-services img {
-    width: 75%;
-    margin-left: 50%; }
-  .homepage-services p {
-    text-align: center;
-    margin: 120px 0 0 55px;
-    width: 100%; }
-  .homepage-services :hover {
-    text-decoration: underline; }
-
 .footer {
   background-color: #f0f1f2; }
   .footer h2 {
     text-transform: uppercase;
-    font-family: 'camptonlight_demo';
+    font-family: "camptonlight_demo";
     text-align: center;
-    padding: 50px 0 30px 0; }
+    padding: 50px 0 0 0; }
   .footer span {
-    font-family: 'camptonbold_demo';
+    font-family: "camptonbold_demo";
     color: black;
     text-decoration: none; }
   .footer p {
-    font-family: 'camptonlight_demo';
+    font-family: "camptonlight_demo";
     text-align: center; }
   .footer img {
-    width: 10%;
+    width: 35px;
     display: inline-block;
-    margin-left: 1%; }
+    margin: 0 0 30px 10px; }
 
 .footer-social {
   text-align: center; }
@@ -102,5 +83,218 @@ body {
   .copyright span {
     font-family: 'arial';
     color: white; }
+
+/* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+   HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+   HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+.homepage-main h1 {
+  text-align: center;
+  font-family: "camptonbold_demo";
+  color: #483d8b;
+  font-size: 1.8em;
+  margin: 160px 0 80px 0; }
+.homepage-main h2 {
+  font-size: 1em;
+  text-align: center; }
+
+.homepage-services {
+  width: 70%;
+  margin: 0 auto; }
+  .homepage-services img {
+    width: 100px;
+    margin-left: 50%; }
+  .homepage-services p {
+    text-align: center;
+    margin: 20px 0 0 55px;
+    width: 100%; }
+  .homepage-services :hover {
+    text-decoration: underline; }
+
+/* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+   SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+   SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
+.services-main h1 {
+  text-align: center;
+  font-family: "camptonbold_demo";
+  color: #483d8b;
+  font-size: 3em;
+  margin: 140px 0 30px 0; }
+.services-main h2 {
+  font-size: 1.2em;
+  text-align: center;
+  font-family: "camptonlight_demo";
+  padding: 0 5px 0 5px; }
+
+.service-page-services h3 {
+  font-family: "camptonbold_demo";
+  margin: 30px 0 0 120px; }
+.service-page-services p {
+  font-family: "camptonlight_demo";
+  width: 250px;
+  margin: 10px 0 0 120px; }
+.service-page-services img {
+  width: 100px;
+  float: left;
+  margin: 30px 0 0 10px; }
+
+.services-packages {
+  margin: 40px 0 0 0; }
+
+.all-packages {
+  position: relative;
+  height: 350px;
+  width: 250px;
+  margin: 0 auto;
+  background-color: #f0f1f2;
+  z-index: 100; }
+
+#paid-package-1 img {
+  width: 60px;
+  position: absolute;
+  top: -30px;
+  left: 95px; }
+#paid-package-1 h2 {
+  font-family: "camptonlight_demo";
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #7495d7;
+  height: 50px;
+  padding: 40px 0 0 0;
+  color: white; }
+#paid-package-1 p {
+  font-family: "camptonlight_demo";
+  padding: 0 15px 0 15px; }
+
+#paid-package-2 img {
+  width: 60px;
+  position: absolute;
+  top: -30px;
+  left: 95px; }
+#paid-package-2 h2 {
+  font-family: "camptonlight_demo";
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #483d8b;
+  height: 50px;
+  padding: 40px 0 0 0;
+  color: white; }
+#paid-package-2 p {
+  font-family: "camptonlight_demo";
+  padding: 0 15px 0 15px; }
+
+#paid-package-3 img {
+  width: 60px;
+  position: absolute;
+  top: -30px;
+  left: 95px; }
+#paid-package-3 h2 {
+  font-family: "camptonlight_demo";
+  font-size: 1.5em;
+  text-align: center;
+  background-color: #1b153e;
+  height: 50px;
+  padding: 40px 0 0 0;
+  color: white; }
+#paid-package-3 p {
+  font-family: "camptonlight_demo";
+  padding: 0 15px 0 15px; }
+
+@media (min-width: 650px) {
+  /* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+     GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+     GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */
+  header img {
+    width: 450px; }
+
+  .navigation {
+    margin-bottom: -72px; }
+    .navigation a {
+      padding: 0 30px 0 30px; }
+
+  #line img {
+    margin-bottom: -32px;
+    width: 55px; }
+
+  /* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+     HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+     HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+  .homepage-main h1 {
+    text-align: center;
+    font-family: "camptonbold_demo";
+    color: #483d8b;
+    font-size: 2.1em; }
+  .homepage-main h2 {
+    font-size: 1.3em; }
+
+  /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+     SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+     SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
+  .service-page-services {
+    margin-left: 10%; }
+    .service-page-services h3 {
+      font-family: "camptonbold_demo";
+      margin: 30px 0 0 120px; }
+    .service-page-services p {
+      font-family: "camptonlight_demo";
+      width: 210px;
+      margin: 10px 0 0 120px; } }
+@media (min-width: 1100px) {
+  /* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+     GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+     GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */
+  header img {
+    width: 500px;
+    margin: -30px 0 -30px 0; }
+
+  .navigation {
+    margin-bottom: -71px; }
+    .navigation a {
+      padding: 0 50px 0 50px;
+      text-decoration: none;
+      color: black;
+      font-family: "camptonlight_demo";
+      font-size: 1em; }
+
+  /* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+     HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+     HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+  .homepage-main h1 {
+    text-align: center;
+    font-family: "camptonbold_demo";
+    color: #483d8b;
+    font-size: 2.5em;
+    margin: 160px 100px 80px 100px; }
+
+  .homepage-services {
+    margin-left: 20%; }
+
+  /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+     SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+     SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
+  .services-main h1 {
+    text-align: center;
+    font-family: "camptonbold_demo";
+    color: #483d8b;
+    font-size: 3em;
+    margin: 140px 0 30px 0; }
+  .services-main h2 {
+    font-size: 1.2em;
+    text-align: center;
+    font-family: "camptonlight_demo";
+    padding: 0 5px 0 5px; }
+  .services-main img {
+    width: 100px;
+    float: left;
+    margin: 30px 0 0 10px; }
+
+  .service-page-services {
+    margin-left: 14%; }
+    .service-page-services h3 {
+      font-family: "camptonbold_demo";
+      margin: 30px 0 0 120px; }
+    .service-page-services p {
+      font-family: "camptonlight_demo";
+      width: 250px;
+      margin: 10px 0 0 120px; } }
 
 /*# sourceMappingURL=style.css.map */

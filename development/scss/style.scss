@@ -1,14 +1,24 @@
 @import 'variables';
 @import 'fonts';
 
+/* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+   GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+   GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */	
+
+a{
+	text-decoration:none;
+}
+
 header{
 
-	text-align:center;
+		text-align:center;
 
-	img{
-		width:100%;
+		img{
+			width:400px;
+			margin:-30px 0 -30px 0;
+
+		}
 	}
-}
 
 body{
 	background-color: white;
@@ -21,22 +31,24 @@ body{
 	position:relative;
 	background: #fff;
 	margin-bottom: -70px;
+	z-index:200;
+
 
 	a{
 		padding:0 8px 0 8px;
 		text-decoration:none;
 		color:black;
-		font-family: 'camptonlight_demo';
+		font-family: $campton-light;
 	}
 }
 
 #line{
-	border-bottom: 2px solid #f5f5f5;
+	box-shadow:0px 1px 1px #bfbfbf;
 	margin-top:10px;
 
 	img{
-		margin-bottom:-30px;
-		width:12%;
+		margin-bottom:-31px;
+		width:50px;
 	}
 }
 
@@ -46,76 +58,32 @@ body{
   	top: 0;
 }
 
-.homepage-main{
-	
-	h1{
-		text-align:center;
-		font-family: 'camptonbold_demo';
-		color:$primary-color;
-		font-size:1.8em;
-		margin: 160px 0 80px 0;
-	}
-
-	h2{
-		font-size:1.3em;
-		margin: 100px 20px 80px 120px;
-
-	}
-
-	img{
-		width:25%;
-		float:left;
-		margin:20px 0 0 10px;
-	}
-
-}
-
-.homepage-services{
-	width:70%;
-	margin:0 auto;
-
-	img{
-		width:75%;
-		margin-left:50%;
-	}
-
-	p{
-		text-align:center;
-		margin:120px 0 0 55px;
-		width:100%;
-	}
-
-	:hover{
-		text-decoration:underline;
-	}
-}
-
 .footer{
 	
 	background-color:#f0f1f2;
 
 	h2{
 		text-transform:uppercase;
-		font-family: 'camptonlight_demo';
+		font-family: $campton-light;
 		text-align:center;
-		padding: 50px 0 30px 0;
+		padding: 50px 0 0 0;
 	}
 
 	span{
-		font-family: 'camptonbold_demo';
+		font-family: $campton-bold;
 		color:black;
 		text-decoration:none;
 	}
 
 	p{
-		font-family: 'camptonlight_demo';
+		font-family: $campton-light;
 		text-align:center;
 	}
 
 	img{
-		width:10%;
+		width:35px;
 		display:inline-block;
-		margin-left:1%;
+		margin:0 0 30px 10px;
 
 	}
 
@@ -140,4 +108,359 @@ body{
 		font-family:'arial';
 		color:white;
 	}
+}
+
+/* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+   HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+   HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+
+.homepage-main{
+	
+	h1{
+		text-align:center;
+		font-family: $campton-bold;
+		color:$primary-color;
+		font-size:1.8em;
+		margin: 160px 0 80px 0;
+	}
+
+	h2{
+		font-size:1em;
+		text-align:center;
+	}
+
+
+}
+
+.homepage-services{
+	width:70%;
+	margin:0 auto;
+
+	img{
+		width:100px;
+		margin-left:50%;
+	}
+
+	p{
+		text-align:center;
+		margin:20px 0 0 55px;
+		width:100%;
+	}
+
+	:hover{
+		text-decoration:underline;
+	}
+}
+
+/* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+   SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+   SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
+
+   .services-main{
+	
+		h1{
+			text-align:center;
+			font-family: $campton-bold;;
+			color:$primary-color;
+			font-size:3em;
+			margin: 140px 0 30px 0;
+		}
+
+		h2{
+			font-size:1.2em;
+			text-align:center;
+			font-family: $campton-light;
+			padding: 0 5px 0 5px;
+
+		}
+
+
+
+	}
+
+	.service-page-services{
+		
+		h3{
+			font-family: $campton-bold;
+			margin:30px 0 0 120px;
+		}
+
+		p{
+			font-family: $campton-light;
+			width:250px;
+			margin:10px 0 0 120px;
+		}
+
+		img{
+			width:100px;
+			float:left;
+			margin:30px 0 0 10px;
+		}
+
+	}
+
+	.services-packages{
+		margin: 40px 0 0 0;
+	}
+
+	.all-packages{
+		position:relative;
+		height:350px;
+		width:250px;
+		margin:0 auto;
+		background-color:#f0f1f2;
+		z-index:100;
+	}
+
+	#paid-package-1{
+
+		img{
+			width:60px;
+			position:absolute;
+			top:-30px;
+			left:95px;
+		}
+
+		h2{
+			font-family: $campton-light;
+			font-size:1.5em;
+			text-align:center;
+			background-color:$light-blue-color;
+			height:50px;
+			padding:40px 0 0 0;
+			color:white;
+		}
+
+		p{
+			font-family:$campton-light;
+			padding:0 15px 0 15px;
+		}
+	}
+
+	#paid-package-2{
+
+		img{
+			width:60px;
+			position:absolute;
+			top:-30px;
+			left:95px;
+		}
+
+		h2{
+			font-family: $campton-light;
+			font-size:1.5em;
+			text-align:center;
+			background-color:$primary-color;
+			height:50px;
+			padding:40px 0 0 0;
+			color:white;
+		}
+
+		p{
+			font-family:$campton-light;
+			padding:0 15px 0 15px;
+		}
+	}
+
+	#paid-package-3{
+
+		img{
+			width:60px;
+			position:absolute;
+			top:-30px;
+			left:95px;
+		}
+
+		h2{
+			font-family: $campton-light;
+			font-size:1.5em;
+			text-align:center;
+			background-color:$secondary-color;
+			height:50px;
+			padding:40px 0 0 0;
+			color:white;
+		}
+
+		p{
+			font-family:$campton-light;
+			padding:0 15px 0 15px;
+		}
+	}
+
+
+
+@media (min-width:650px){
+
+/* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+   GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+   GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */	
+	
+	header{
+
+		img{
+			width:450px;
+		}
+	}
+
+	.navigation{
+
+		margin-bottom: -72px;
+
+
+		a{
+			padding:0 30px 0 30px;
+		}
+	}
+
+	#line{
+
+		img{
+			margin-bottom:-32px;
+			width:55px;
+		}
+	}
+
+/* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+   HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+   HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+
+	.homepage-main{
+	
+		h1{
+			text-align:center;
+			font-family:$campton-bold;
+			color:$primary-color;
+			font-size:2.1em;
+		}
+
+		h2{
+			font-size:1.3em;
+
+		}
+
+	}
+
+/* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+   SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+   SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
+
+	.service-page-services{
+
+		margin-left:10%;
+		
+		h3{
+			font-family: $campton-bold;
+			margin:30px 0 0 120px;
+		}
+
+		p{
+			font-family: $campton-light;
+			width:210px;
+			margin:10px 0 0 120px;
+		}
+
+
+	}
+
+
+}
+
+@media (min-width:1100px){
+
+/* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+   GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+   GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */	
+
+	header{
+
+		img{
+			width:500px;
+			margin:-30px 0 -30px 0;
+
+		}
+
+	}
+
+	.navigation{
+
+		margin-bottom: -71px;
+		a{
+			padding:0 50px 0 50px;
+			text-decoration:none;
+			color:black;
+			font-family: $campton-light;
+			font-size: 1em;
+		}
+	}
+
+/* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+   HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+   HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+
+	.homepage-main{
+	
+		h1{
+			text-align:center;
+			font-family: $campton-bold;
+			color:$primary-color;
+			font-size:2.5em;
+			margin: 160px 100px 80px 100px;
+		}
+
+		h2{
+		
+		}
+	}
+
+	.homepage-services{
+		margin-left:20%;
+	}	
+
+/* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+   SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+   SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
+
+   .services-main{
+
+		h1{
+			text-align:center;
+			font-family: $campton-bold;
+			color:$primary-color;
+			font-size:3em;
+			margin: 140px 0 30px 0;
+		}
+
+		h2{
+			font-size:1.2em;
+			text-align:center;
+			font-family: $campton-light;
+			padding: 0 5px 0 5px;
+
+		}
+
+		img{
+			width:100px;
+			float:left;
+			margin:30px 0 0 10px;
+		}
+
+	}
+
+	.service-page-services{
+
+		margin-left:14%;
+		
+		h3{
+			font-family: $campton-bold;
+			margin:30px 0 0 120px;
+		}
+
+		p{
+			font-family: $campton-light;
+			width:250px;
+			margin:10px 0 0 120px;
+		}
+
+	}
+
 }
