@@ -38,7 +38,7 @@ body{
 		padding:0 8px 0 8px;
 		text-decoration:none;
 		color:black;
-		font-family: $campton-light;
+		font-family: $campton-light, Arial, Helvetica, sans-serif;
 	}
 }
 
@@ -169,7 +169,7 @@ body{
 		h2{
 			font-size:1.2em;
 			text-align:center;
-			font-family: $campton-light;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			padding: 0 5px 0 5px;
 
 		}
@@ -186,7 +186,7 @@ body{
 		}
 
 		p{
-			font-family: $campton-light;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			width:250px;
 			margin:10px 0 0 120px;
 		}
@@ -201,13 +201,30 @@ body{
 
 	.services-packages{
 		margin: 40px 0 0 0;
+		text-align:center;
+		position:relative;
+	}
+
+	.package-title{
+
+		h2{
+			font-size:2em;
+			font-family: $campton-bold;
+			color:$primary-color;
+			margin:50px 0 0 0;
+		}
+
+		h3{
+			font-family: $campton-light;
+		}
 	}
 
 	.all-packages{
 		position:relative;
-		height:350px;
+		height:400px;
 		width:250px;
-		margin:0 auto;
+		margin:50px 0 0 15%;
+
 		background-color:#f0f1f2;
 		z-index:100;
 	}
@@ -222,7 +239,7 @@ body{
 		}
 
 		h2{
-			font-family: $campton-light;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			font-size:1.5em;
 			text-align:center;
 			background-color:$light-blue-color;
@@ -232,7 +249,7 @@ body{
 		}
 
 		p{
-			font-family:$campton-light;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			padding:0 15px 0 15px;
 		}
 	}
@@ -247,7 +264,7 @@ body{
 		}
 
 		h2{
-			font-family: $campton-light;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			font-size:1.5em;
 			text-align:center;
 			background-color:$primary-color;
@@ -257,7 +274,7 @@ body{
 		}
 
 		p{
-			font-family:$campton-light;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			padding:0 15px 0 15px;
 		}
 	}
@@ -272,7 +289,7 @@ body{
 		}
 
 		h2{
-			font-family: $campton-light;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			font-size:1.5em;
 			text-align:center;
 			background-color:$secondary-color;
@@ -282,7 +299,7 @@ body{
 		}
 
 		p{
-			font-family:$campton-light;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			padding:0 15px 0 15px;
 		}
 	}
@@ -354,14 +371,40 @@ body{
 		}
 
 		p{
-			font-family: $campton-light;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			width:210px;
 			margin:10px 0 0 120px;
 		}
 
+	}
+
+	.services-packages{
 
 	}
 
+	.all-packages{
+		display:inline-block;
+		margin:50px 0 0 0;
+	}
+
+	#paid-package-1{
+
+		h2{
+			margin-top:0;
+		}
+	}
+	#paid-package-2{
+
+		h2{
+			margin-top:0;
+		}
+	}
+	#paid-package-3{
+
+		h2{
+			margin-top:0;
+		}
+	}
 
 }
 
@@ -388,7 +431,7 @@ body{
 			padding:0 50px 0 50px;
 			text-decoration:none;
 			color:black;
-			font-family: $campton-light;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			font-size: 1em;
 		}
 	}
@@ -433,33 +476,53 @@ body{
 		h2{
 			font-size:1.2em;
 			text-align:center;
-			font-family: $campton-light;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			padding: 0 5px 0 5px;
 
-		}
-
-		img{
-			width:100px;
-			float:left;
-			margin:30px 0 0 10px;
 		}
 
 	}
 
 	.service-page-services{
-
-		margin-left:14%;
 		
+		margin-left:16%;
+
 		h3{
 			font-family: $campton-bold;
 			margin:30px 0 0 120px;
 		}
 
 		p{
-			font-family: $campton-light;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			width:250px;
 			margin:10px 0 0 120px;
 		}
+
+	}
+
+	.services-packages{
+
+	}
+
+}
+
+@media (min-width:1500px){
+
+/* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+   GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
+   GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */
+
+/* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+   HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
+   HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+
+/* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+   SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
+   SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
+
+   .service-page-services{
+		
+		margin-left:25%;
 
 	}
 
