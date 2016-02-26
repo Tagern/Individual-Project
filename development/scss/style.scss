@@ -58,6 +58,12 @@ body{
   	top: 0;
 }
 
+.line{
+	border-bottom:1px solid #eaeaea;
+	width:80%;
+	margin: 50px auto;
+}
+
 .footer{
 	
 	background-color:#f0f1f2;
@@ -304,6 +310,42 @@ body{
 		}
 	}
 
+/* ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US 
+   ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US
+   ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US     */
+
+	.about-us-main{
+		
+		h1{
+			text-align:center;
+			font-family: $campton-bold;
+			color:$primary-color;
+			font-size:2.2em;
+			margin: 160px 0 40px 0;
+		}
+
+		h2{
+			font-size:1em;
+			text-align:center;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
+		}
+
+	}
+	.about-us-body{
+		text-align:Center;
+
+		img{
+
+		}
+
+		h2{
+			font-size:1em;
+			text-align:center;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
+		}
+
+	}
+
 
 
 @media (min-width:650px){
@@ -406,6 +448,26 @@ body{
 		}
 	}
 
+/* ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US 
+   ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US
+   ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US     */
+
+	.about-us-main{
+	
+		h1{
+			text-align:center;
+			font-family:$campton-bold;
+			color:$primary-color;
+			font-size:2.7em;
+		}
+
+		h2{
+			font-size:1.3em;
+
+		}
+
+	}
+
 }
 
 @media (min-width:1100px){
@@ -501,6 +563,28 @@ body{
 	}
 
 	.services-packages{
+
+	}
+
+
+/* ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US 
+   ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US
+   ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US     */
+
+	.about-us-main{
+	
+		h1{
+			text-align:center;
+			font-family: $campton-bold;
+			color:$primary-color;
+			font-size:3.1em;
+			margin: 160px 100px 80px 100px;
+		}
+
+		h2{
+			font-size:1em;
+			text-align:center;
+		}
 
 	}
 
