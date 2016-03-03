@@ -156,6 +156,23 @@ body{
 	:hover{
 		text-decoration:underline;
 	}
+
+	.brain{
+		background-image: url("../img/brain-test.png");
+		height:170px;
+		width:100%;
+	    background-repeat: no-repeat;
+	    margin:-340px 0 0 0;
+	}
+
+	h2{
+		font-size:1.2em;
+		font-family:$campton-light;
+		margin:280px 0 50px -20px;
+	}
+	h2:hover{
+		text-decoration:none;
+	}
 }
 
 /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
@@ -392,12 +409,83 @@ body{
 			font-size:2.1em;
 		}
 
-		h2{
-			font-size:1.3em;
+	}
+
+	.homepage-services{
+
+		.brain{
+			background-image: url("../img/brain-test.png");
+			height:170px;
+		    background-repeat: no-repeat;
+		    margin:0px 0 0 55%;
+		}
+		.brain-highlight1{
+			background-image: url("../img/brain-highlight1.png");
+			height:100px;
+		    background-repeat: no-repeat;
+		    margin:-170px 0 0 55%;
+		    display:none;
 
 		}
+		.brain-highlight2{
+			background-image: url("../img/brain-highlight2.png");
+			height:200px;
+		    background-repeat: no-repeat;
+		   	margin:-170px 0 0 55%;
+		    display:none;
+		}
+		.brain-highlight3{
+			background-image: url("../img/brain-highlight3.png");
+			height:200px;
+		    background-repeat: no-repeat;
+		    margin:-170px 0 0 55%;
+		    display:none;
+		}
+		.brain-highlight4{
+			background-image: url("../img/brain-highlight4.png");
+			height:200px;
+		    background-repeat: no-repeat;
+		    margin:-170px 0 0 55%;
+		    display:none;
+		}
 
+		#strategy{
+			margin:200px 0 0 0;
+		}
+		#ux{
+			margin-top:200px;
+		}
+		#design{
+			margin-top:200px
+		}
+		#dev{
+			margin-top:200px
+			
+		}
+
+		#strategy:hover ~ .brain-highlight1{
+			display:block;
+		}
+		#ux:hover ~ .brain-highlight2{
+			display:block;
+		}
+		#design:hover ~ .brain-highlight3{
+			display:block;
+		}
+		#dev:hover ~ .brain-highlight4{
+			display:block;
+		}
+
+		h2{
+			font-size:1.3em;
+			margin:0 0 0 -50px;
+			width:500px;
+
+		}
 	}
+
+
+
 
 /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
    SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
@@ -515,11 +603,30 @@ body{
 		h2{
 		
 		}
+
 	}
 
 	.homepage-services{
 		margin-left:20%;
+
+		.brain{
+			margin:-80px 0 0 60%;
+		}
+		.brain-highlight1{
+		    margin:-170px 0 0 60%;
+
+		}
+		.brain-highlight2{
+		   	margin:-170px 0 0 60%;
+		}
+		.brain-highlight3{
+		    margin:-170px 0 0 60%;
+		}
+		.brain-highlight4{
+		    margin:-170px 0 0 60%;
+		}
 	}	
+
 
 /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
    SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
