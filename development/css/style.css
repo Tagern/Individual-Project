@@ -92,6 +92,10 @@ body {
 /* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
    HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
    HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+.homepage-main .main-background-color {
+  background-color: #f0f1f2;
+  height: 550px;
+  margin-top: 10px; }
 .homepage-main h1 {
   text-align: center;
   font-family: "camptonbold_demo";
@@ -114,12 +118,6 @@ body {
     width: 100%; }
   .homepage-services :hover {
     text-decoration: underline; }
-  .homepage-services .brain {
-    background-image: url("../img/brain-test.png");
-    height: 170px;
-    width: 100%;
-    background-repeat: no-repeat;
-    margin: -340px 0 0 0; }
   .homepage-services h2 {
     font-size: 1.2em;
     font-family: "camptonlight_demo";
@@ -272,51 +270,6 @@ body {
     color: #483d8b;
     font-size: 2.1em; }
 
-  .homepage-services .brain {
-    background-image: url("../img/brain-test.png");
-    height: 170px;
-    background-repeat: no-repeat;
-    margin: 0px 0 0 55%; }
-  .homepage-services .brain-highlight1 {
-    background-image: url("../img/brain-highlight1.png");
-    height: 100px;
-    background-repeat: no-repeat;
-    margin: -170px 0 0 55%;
-    display: none; }
-  .homepage-services .brain-highlight2 {
-    background-image: url("../img/brain-highlight2.png");
-    height: 200px;
-    background-repeat: no-repeat;
-    margin: -170px 0 0 55%;
-    display: none; }
-  .homepage-services .brain-highlight3 {
-    background-image: url("../img/brain-highlight3.png");
-    height: 200px;
-    background-repeat: no-repeat;
-    margin: -170px 0 0 55%;
-    display: none; }
-  .homepage-services .brain-highlight4 {
-    background-image: url("../img/brain-highlight4.png");
-    height: 200px;
-    background-repeat: no-repeat;
-    margin: -170px 0 0 55%;
-    display: none; }
-  .homepage-services #strategy {
-    margin: 200px 0 0 0; }
-  .homepage-services #ux {
-    margin-top: 200px; }
-  .homepage-services #design {
-    margin-top: 200px; }
-  .homepage-services #dev {
-    margin-top: 200px; }
-  .homepage-services #strategy:hover ~ .brain-highlight1 {
-    display: block; }
-  .homepage-services #ux:hover ~ .brain-highlight2 {
-    display: block; }
-  .homepage-services #design:hover ~ .brain-highlight3 {
-    display: block; }
-  .homepage-services #dev:hover ~ .brain-highlight4 {
-    display: block; }
   .homepage-services h2 {
     font-size: 1.3em;
     margin: 0 0 0 -50px;
@@ -387,16 +340,6 @@ body {
 
   .homepage-services {
     margin-left: 20%; }
-    .homepage-services .brain {
-      margin: -80px 0 0 60%; }
-    .homepage-services .brain-highlight1 {
-      margin: -170px 0 0 60%; }
-    .homepage-services .brain-highlight2 {
-      margin: -170px 0 0 60%; }
-    .homepage-services .brain-highlight3 {
-      margin: -170px 0 0 60%; }
-    .homepage-services .brain-highlight4 {
-      margin: -170px 0 0 60%; }
 
   /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
      SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
