@@ -10,6 +10,18 @@
   src: url("../fonts/campton/campton-lightdemo-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/campton/campton-lightdemo-webfont.woff2") format("woff2"), url("../fonts/campton/campton-lightdemo-webfont.woff") format("woff"), url("../fonts/campton/campton-lightdemo-webfont.ttf") format("truetype"), url("../fonts/campton/campton-lightdemo-webfont.svg#camptonlight_demo") format("svg");
   font-weight: normal;
   font-style: normal; }
+@font-face {
+  font-family: "SSSocialRegular";
+  src: url("../fonts/ss-gizmo/webfonts//ss-social-regular.eot");
+  src: url("../fonts/ss-social/webfonts/ss-social-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ss-social/webfonts/ss-social-regular.woff") format("woff"), url("../fonts/ss-social/webfonts/ss-social-regular.ttf") format("truetype"), url("../fonts/ss-social/webfonts/ss-social-regular.svg#SSSocialRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: "SSGizmo";
+  src: url("../fonts/ss-gizmo/webfonts/ss-gizmo.eot");
+  src: url("../fonts/ss-gizmo/webfonts/ss-gizmo.eot?#iefix") format("embedded-opentype"), url("../fonts/ss-gizmo/webfonts/ss-gizmo.woff") format("woff"), url("../fonts/ss-gizmo/webfonts/ss-gizmo.ttf") format("truetype"), url("../fonts/ss-gizmo/webfonts/ss-gizmo.svg#SSGizmo") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 /* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
    GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
    GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */
@@ -111,7 +123,10 @@ body {
   margin: 0 auto; }
   .homepage-services img {
     width: 100px;
-    margin-left: 50%; }
+    margin-left: 50%;
+    background-color: #1b153e;
+    padding: 10px;
+    border-radius: 10%; }
   .homepage-services p {
     text-align: center;
     margin: 20px 0 0 55px;
@@ -150,7 +165,9 @@ body {
 .service-page-services img {
   width: 100px;
   float: left;
-  margin: 30px 0 0 10px; }
+  margin: 30px 0 0 0;
+  background-color: #1b153e;
+  border-radius: 10%; }
 
 .services-packages {
   margin: 40px 0 0 0;
@@ -232,7 +249,7 @@ body {
   font-family: "camptonbold_demo";
   color: #483d8b;
   font-size: 2.2em;
-  margin: 160px 0 40px 0; }
+  margin: 140px 0 40px 0; }
 .about-us-main h2 {
   font-size: 1em;
   text-align: center;
@@ -244,6 +261,93 @@ body {
     font-size: 1em;
     text-align: center;
     font-family: "camptonlight_demo", Arial, Helvetica, sans-serif; }
+
+/* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+   CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+   CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
+.contact-main {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto; }
+  .contact-main h1 {
+    font-family: "camptonbold_demo";
+    color: #483d8b;
+    font-size: 3em;
+    margin: 140px 0 40px 0; }
+  .contact-main h2 {
+    font-size: 1.1em;
+    text-align: left;
+    margin: 0 5px;
+    font-family: "camptonlight_demo", Arial, Helvetica, sans-serif; }
+  .contact-main #message-gif {
+    margin: 0 0 0 -5px;
+    padding: 0; }
+
+.contact-form {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto; }
+  .contact-form h2 {
+    text-align: center;
+    font-family: "camptonbold_demo"; }
+  .contact-form p {
+    margin: 5px;
+    font-family: "camptonlight_demo";
+    text-align: left; }
+  .contact-form input {
+    margin: 15px 0 0 10px;
+    font-family: "camptonlight_demo"; }
+  .contact-form textarea {
+    margin: 15px 0 0 10px;
+    font-family: "camptonlight_demo";
+    height: 200px; }
+  .contact-form button {
+    background-color: #1b153e;
+    border: none;
+    color: white;
+    font-family: "camptonlight_demo";
+    padding: 10px;
+    border: 1px solid #1b153e;
+    margin: 20px 0 0 0; }
+  .contact-form button:hover {
+    color: #1b153e;
+    background-color: white;
+    border: 1px solid #1b153e; }
+  .contact-form .contact-text-fields {
+    position: relative;
+    color: #aaa;
+    font-size: 16px; }
+  .contact-form .contact-text-fields input {
+    height: 32px;
+    border: 1px solid #aaa;
+    border-radius: 5px; }
+  .contact-form .contact-text-fields input {
+    text-indent: 32px; }
+  .contact-form .contact-text-fields textarea {
+    border: 1px solid #aaa;
+    border-radius: 5px; }
+  .contact-form .contact-text-fields textarea {
+    text-indent: 32px; }
+  .contact-form .contact-text-fields .fa-user {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 25px; }
+  .contact-form .contact-text-fields .fa-globe {
+    position: absolute;
+    top: 102px;
+    left: 20px;
+    font-size: 25px; }
+  .contact-form .contact-text-fields .fa-phone {
+    position: absolute;
+    top: 175px;
+    left: 20px;
+    font-size: 25px; }
+  .contact-form .contact-text-fields .fa-envelope {
+    position: absolute;
+    top: 242px;
+    left: 20px;
+    font-size: 25px; }
 
 @media (min-width: 650px) {
   /* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
@@ -310,7 +414,73 @@ body {
     color: #483d8b;
     font-size: 2.7em; }
   .about-us-main h2 {
-    font-size: 1.3em; } }
+    font-size: 1.3em; }
+
+  /* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+     CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+     CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
+  .contact-main {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto; }
+    .contact-main h1 {
+      font-family: "camptonbold_demo";
+      color: #483d8b;
+      font-size: 3em;
+      margin: 140px 0 40px 0; }
+    .contact-main h2 {
+      font-size: 1.1em;
+      text-align: left;
+      margin: 13px 0 0 0;
+      font-family: "camptonlight_demo", Arial, Helvetica, sans-serif; }
+    .contact-main #message-gif {
+      padding: 0;
+      width: 400px;
+      text-align: center; }
+
+  .contact-form {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto; }
+    .contact-form h2 {
+      text-align: center;
+      font-family: "camptonbold_demo"; }
+    .contact-form p {
+      margin: 5px;
+      font-family: "camptonlight_demo";
+      text-align: center; }
+    .contact-form input {
+      width: 110px;
+      margin: 15px 0 0 10px;
+      font-family: "camptonlight_demo";
+      float: left; }
+    .contact-form textarea {
+      width: 400px;
+      margin: 15px 0 0 10px;
+      font-family: "camptonlight_demo";
+      height: 200px; }
+    .contact-form .contact-text-fields {
+      position: relative; }
+    .contact-form .contact-text-fields .fa-user {
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-globe {
+      position: absolute;
+      top: 30px;
+      left: 165px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-phone {
+      position: absolute;
+      top: 30px;
+      left: 313px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-envelope {
+      position: absolute;
+      top: 95px;
+      left: 20px;
+      font-size: 25px; } }
 @media (min-width: 1100px) {
   /* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
      GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
@@ -373,11 +543,73 @@ body {
     text-align: center;
     font-family: "camptonbold_demo";
     color: #483d8b;
-    font-size: 3.1em;
-    margin: 160px 100px 80px 100px; }
+    font-size: 3.1em; }
   .about-us-main h2 {
     font-size: 1em;
-    text-align: center; } }
+    text-align: center; }
+
+  /* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+     CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+     CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
+  .contact-main {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto; }
+    .contact-main h1 {
+      font-family: "camptonbold_demo";
+      color: #483d8b;
+      font-size: 3em;
+      margin: 140px 0 40px 0; }
+    .contact-main h2 {
+      font-size: 1.2em;
+      text-align: left;
+      margin: 20px 0 0 25px;
+      font-family: "camptonlight_demo", Arial, Helvetica, sans-serif; }
+    .contact-main #message-gif {
+      width: 400px;
+      margin: 0;
+      padding: 0; }
+
+  .contact-form {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto; }
+    .contact-form h2 {
+      text-align: center;
+      font-family: "camptonbold_demo"; }
+    .contact-form p {
+      margin: 5px;
+      font-family: "camptonlight_demo";
+      text-align: center; }
+    .contact-form input {
+      width: 220px;
+      margin: 15px 0 0 10px;
+      font-family: "camptonlight_demo"; }
+    .contact-form textarea {
+      width: 731px;
+      margin: 15px 0 0 10px;
+      font-family: "camptonlight_demo";
+      height: 200px; }
+    .contact-form .contact-text-fields .fa-user {
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-globe {
+      position: absolute;
+      top: 30px;
+      left: 280px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-phone {
+      position: absolute;
+      top: 30px;
+      left: 535px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-envelope {
+      position: absolute;
+      top: 95px;
+      left: 20px;
+      font-size: 25px; } }
 @media (min-width: 1500px) {
   /* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
      GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  

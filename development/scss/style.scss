@@ -152,6 +152,10 @@ body{
 	img{
 		width:100px;
 		margin-left:50%;
+		background-color:$secondary-color;
+		padding:10px;
+		border-radius:10%;
+
 	}
 
 	p{
@@ -216,7 +220,9 @@ body{
 		img{
 			width:100px;
 			float:left;
-			margin:30px 0 0 10px;
+			margin:30px 0 0 0;
+			background-color:$secondary-color;
+			border-radius:10%;
 		}
 
 	}
@@ -337,7 +343,7 @@ body{
 			font-family: $campton-bold;
 			color:$primary-color;
 			font-size:2.2em;
-			margin: 160px 0 40px 0;
+			margin: 140px 0 40px 0;
 		}
 
 		h2{
@@ -361,6 +367,141 @@ body{
 		}
 
 	}
+
+/* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+   CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+   CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
+
+	.contact-main{
+
+		width:90%;
+		text-align:center;
+		margin:0 auto;
+
+		h1{
+
+			font-family: $campton-bold;
+			color:$primary-color;
+			font-size:3em;
+			margin: 140px 0 40px 0;
+		}
+
+		h2{
+			font-size:1.1em;
+			text-align:left;
+			margin:0 5px;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
+		}
+
+		#message-gif{
+			margin:0 0 0 -5px;
+			padding:0;
+		}
+
+	}
+
+	.contact-form{
+
+		width:90%;
+		text-align:center;
+		margin:0 auto;
+
+		h2{
+			text-align:center;
+			font-family:$campton-bold;
+		}
+
+		p{
+			margin:5px;
+			font-family:$campton-light;
+			text-align:left;
+		}
+
+		input{
+			margin:15px 0 0 10px;
+			font-family: $campton-light;
+		}
+
+		textarea{
+			margin:15px 0 0 10px;
+			font-family: $campton-light;
+			height:200px;
+
+		}
+
+		button{
+			background-color:$secondary-color;
+			border:none;
+			color:white;
+			font-family:$campton-light;
+			padding:10px;
+			border:1px solid $secondary-color;
+			margin:20px 0 0 0;
+		}
+
+		button:hover{
+			color:$secondary-color;
+			background-color:white;
+			border:1px solid $secondary-color;
+
+		}
+		.contact-text-fields {
+		  position: relative;
+		  color: #aaa;
+		  font-size: 16px;
+		}
+
+		.contact-text-fields input{
+		  height: 32px;
+		  border: 1px solid #aaa;
+		  border-radius: 5px;
+
+		}
+
+		.contact-text-fields input{ 
+			text-indent: 32px;
+		}
+
+		.contact-text-fields textarea{
+		  border: 1px solid #aaa;
+		  border-radius: 5px;
+		}
+
+		.contact-text-fields textarea{ 
+			text-indent: 32px;
+		}
+
+		.contact-text-fields .fa-user { 
+		  position: absolute;
+		  top: 30px;
+		  left: 20px;
+		  font-size:25px;
+		}
+
+		.contact-text-fields .fa-globe { 
+		  position: absolute;
+		  top: 102px;
+		  left: 20px;
+		  font-size:25px;
+		}
+
+		.contact-text-fields .fa-phone { 
+		  position: absolute;
+		  top: 175px;
+		  left: 20px;
+		  font-size:25px;
+		}
+
+		.contact-text-fields .fa-envelope { 
+		  position: absolute;
+		  top: 242px;
+		  left: 20px;
+		  font-size:25px;
+		}
+
+	}
+
+
 
 
 
@@ -491,6 +632,103 @@ body{
 		}
 
 	}
+/* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+   CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+   CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
+
+.contact-main{
+
+		width:90%;
+		text-align:center;
+		margin:0 auto;
+
+		h1{
+
+			font-family: $campton-bold;
+			color:$primary-color;
+			font-size:3em;
+			margin: 140px 0 40px 0;
+		}
+
+		h2{
+			font-size:1.1em;
+			text-align:left;
+			margin:13px 0 0 0;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
+		}
+
+		#message-gif{
+			padding:0;
+			width:400px;
+			text-align:center;
+		}
+
+	}
+
+	.contact-form{
+
+		width:70%;
+		text-align:center;
+		margin:0 auto;
+
+
+		h2{
+			text-align:center;
+			font-family:$campton-bold;
+		}
+
+		p{
+			margin:5px;
+			font-family:$campton-light;
+			text-align:center;
+		}
+
+		input{
+			width:110px;
+			margin:15px 0 0 10px;
+			font-family: $campton-light;
+			float:left;
+		}
+
+		textarea{
+			width:400px;
+			margin:15px 0 0 10px;
+			font-family: $campton-light;
+			height:200px;
+
+		}
+		.contact-text-fields{
+			position:relative;
+		}
+
+		.contact-text-fields .fa-user { 
+		  position: absolute;
+		  top: 30px;
+		  left: 20px;
+		  font-size:25px;
+		}
+
+		.contact-text-fields .fa-globe { 
+		  position: absolute;
+		  top: 30px;
+		  left: 165px;
+		  font-size:25px;
+		}
+
+		.contact-text-fields .fa-phone { 
+		  position: absolute;
+		  top: 30px;
+		  left: 313px;
+		  font-size:25px;
+		}
+
+		.contact-text-fields .fa-envelope { 
+		  position: absolute;
+		  top: 95px;
+		  left: 20px;
+		  font-size:25px;
+		}
+	}
 
 }
 
@@ -604,7 +842,6 @@ body{
 			font-family: $campton-bold;
 			color:$primary-color;
 			font-size:3.1em;
-			margin: 160px 100px 80px 100px;
 		}
 
 		h2{
@@ -614,6 +851,98 @@ body{
 
 	}
 
+
+/* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+   CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+   CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
+
+	.contact-main{
+
+		width:70%;
+		text-align:center;
+		margin:0 auto;
+
+		h1{
+
+			font-family: $campton-bold;
+			color:$primary-color;
+			font-size:3em;
+			margin: 140px 0 40px 0;
+		}
+
+		h2{
+			font-size:1.2em;
+			text-align:left;
+			margin:20px 0 0 25px;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
+		}
+
+		#message-gif{
+			width:400px;
+			margin:0;
+			padding:0;
+		}
+	}
+
+	.contact-form{
+
+		width:70%;
+		text-align:center;
+		margin:0 auto;
+
+
+		h2{
+			text-align:center;
+			font-family:$campton-bold;
+		}
+
+		p{
+			margin:5px;
+			font-family:$campton-light;
+			text-align:center;
+		}
+
+		input{
+			width: 220px;
+			margin:15px 0 0 10px;
+			font-family: $campton-light;
+		}
+
+		textarea{
+			width:731px;
+			margin:15px 0 0 10px;
+			font-family: $campton-light;
+			height:200px;
+		}
+
+		.contact-text-fields .fa-user { 
+		  position: absolute;
+		  top: 30px;
+		  left: 20px;
+		  font-size:25px;
+		}
+
+		.contact-text-fields .fa-globe { 
+		  position: absolute;
+		  top: 30px;
+		  left: 280px;
+		  font-size:25px;
+		}
+
+		.contact-text-fields .fa-phone { 
+		  position: absolute;
+		  top: 30px;
+		  left: 535px;
+		  font-size:25px;
+		}
+
+		.contact-text-fields .fa-envelope { 
+		  position: absolute;
+		  top: 95px;
+		  left: 20px;
+		  font-size:25px;
+		}
+	}
 }
 
 @media (min-width:1500px){
