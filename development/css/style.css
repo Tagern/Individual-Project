@@ -48,7 +48,9 @@ body {
     padding: 0 8px 0 8px;
     text-decoration: none;
     color: black;
-    font-family: "camptonlight_demo", Arial, Helvetica, sans-serif; }
+    font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: .8em; }
   .navigation .nav-icon {
     position: relative;
     color: #000;
@@ -149,15 +151,30 @@ body {
     font-size: 1.8em;
     margin: 80px 0 60px 0; }
 
+.homepage-info h2 {
+  font-family: "camptonbold_demo";
+  font-size: 2.2em;
+  text-align: center;
+  width: 90%;
+  margin: 30px 0 30px 0;
+  color: #7495d7; }
+.homepage-info p {
+  font-family: "camptonlight_demo";
+  font-size: 1.2em;
+  width: 90%;
+  margin: 0 0 20px 20px; }
+.homepage-info img {
+  display: none; }
+
 .homepage-services {
   width: 70%;
   margin: 0 auto;
   padding: 75px 0 40px 0; }
   .homepage-services img {
-    width: 100px;
+    width: 70px;
     margin-left: 50%;
     background-color: #1b153e;
-    padding: 10px;
+    padding: 20px;
     border-radius: 10%; }
   .homepage-services p {
     text-align: center;
@@ -182,10 +199,11 @@ body {
   font-size: 3em;
   margin: 140px 0 30px 0; }
 .services-main h2 {
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: center;
   font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
-  padding: 0 5px 0 5px; }
+  padding: 0 5px 0 5px;
+  margin: 0 0 30px 0; }
 
 .service-page-services h3 {
   font-family: "camptonbold_demo";
@@ -195,11 +213,12 @@ body {
   width: 250px;
   margin: 10px 0 0 120px; }
 .service-page-services img {
-  width: 100px;
+  width: 70px;
   float: left;
   margin: 30px 0 0 0;
   background-color: #1b153e;
-  border-radius: 10%; }
+  border-radius: 10%;
+  padding: 20px; }
 
 .services-packages {
   margin: 40px 0 0 0;
@@ -209,17 +228,19 @@ body {
 .package-title h2 {
   font-size: 2em;
   font-family: "camptonbold_demo";
-  color: #483d8b;
+  color: #7495d7;
   margin: 50px 0 0 0; }
 .package-title h3 {
-  font-family: "camptonlight_demo"; }
+  font-family: "camptonlight_demo";
+  font-size: 1em;
+  margin: 20px 0 30px 0; }
 
 .all-packages {
   position: relative;
   height: 400px;
   width: 250px;
   margin: 50px 0 0 15%;
-  background-color: #f0f1f2;
+  background-color: #f9f9f9;
   z-index: 100; }
 
 #paid-package-1 img {
@@ -280,20 +301,66 @@ body {
   text-align: center;
   font-family: "camptonbold_demo";
   color: #483d8b;
-  font-size: 2.6em;
+  font-size: 3em;
   margin: 140px 0 30px 0; }
-.about-us-main p {
+.about-us-main h2 {
   font-size: .9em;
   text-align: center;
   font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
   margin: 0 0 60px 0; }
 
 .about-us-body {
-  text-align: Center; }
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 15px 0 15px 0; }
   .about-us-body h2 {
-    font-size: 1em;
+    font-size: 2em;
     text-align: center;
+    font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+    color: #7495d7; }
+  .about-us-body p {
+    text-align: left;
+    font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    width: 90%;
+    margin: 0 0 20px 20px; }
+  .about-us-body img {
+    display: none;
+    width: 150px;
+    margin: 50px 0 100px 0; }
+
+.about-us-philosophy {
+  text-align: center; }
+  .about-us-philosophy h2 {
+    font-family: "camptonbold_demo";
+    color: #7495d7;
+    font-size: 2em;
+    padding: 40px 0 0 0; }
+  .about-us-philosophy h4 {
     font-family: "camptonlight_demo", Arial, Helvetica, sans-serif; }
+  .about-us-philosophy img {
+    width: 250px; }
+  .about-us-philosophy h3 {
+    font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 0 0 0 25px; }
+  .about-us-philosophy p {
+    font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 0 0 0 25px;
+    width: 80%; }
+  .about-us-philosophy .value-container {
+    display: none; }
+  .about-us-philosophy .honesty {
+    padding: 0; }
+  .about-us-philosophy #value-1 h3 {
+    color: #483d8b; }
+  .about-us-philosophy #value-2 h3 {
+    color: #1b153e; }
+  .about-us-philosophy #value-3 h3 {
+    color: #483d8b; }
+  .about-us-philosophy #value-4 h3 {
+    color: #1b153e; }
 
 /* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
    CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
@@ -306,15 +373,15 @@ body {
     font-family: "camptonbold_demo";
     color: #483d8b;
     font-size: 3em;
-    margin: 140px 0 40px 0; }
+    margin: 140px 0 20px 0; }
   .contact-main h2 {
-    font-size: 1.1em;
-    text-align: left;
-    margin: 0 5px;
+    font-size: 1em;
+    margin: 40px 0;
     font-family: "camptonlight_demo", Arial, Helvetica, sans-serif; }
   .contact-main #message-gif {
     margin: 0 0 0 -5px;
-    padding: 0; }
+    padding: 0 0 50px 0;
+    width: 300px; }
 
 .contact-form {
   width: 90%;
@@ -322,7 +389,9 @@ body {
   margin: 0 auto; }
   .contact-form h2 {
     text-align: center;
-    font-family: "camptonbold_demo"; }
+    font-family: "camptonbold_demo";
+    color: #7495d7;
+    font-size: 2em; }
   .contact-form p {
     margin: 5px;
     font-family: "camptonlight_demo";
@@ -391,7 +460,8 @@ body {
   .navigation {
     margin-bottom: -72px; }
     .navigation a {
-      padding: 0 30px 0 30px; }
+      padding: 0 0 0 0;
+      margin-left: 55px; }
 
   #line img {
     margin-bottom: -32px;
@@ -408,6 +478,26 @@ body {
     font-family: "camptonbold_demo";
     color: #483d8b;
     font-size: 2.1em; }
+
+  .homepage-info h2 {
+    font-family: "camptonbold_demo";
+    font-size: 2.2em;
+    text-align: left;
+    width: 90%;
+    margin: 30px 0 30px 20px;
+    color: #7495d7;
+    float: left; }
+  .homepage-info p {
+    font-family: "camptonlight_demo";
+    font-size: 1.2em;
+    width: 60%;
+    margin: 0 0 20px 20px;
+    float: left; }
+  .homepage-info img {
+    display: block;
+    float: left;
+    margin: -100px 0 120px 10%;
+    width: 150px; }
 
   .homepage-services h2 {
     font-size: 1.3em;
@@ -449,7 +539,48 @@ body {
     color: #483d8b;
     font-size: 2.7em; }
   .about-us-main h2 {
-    font-size: 1.3em; }
+    font-size: 1em; }
+
+  .about-us-body h2 {
+    font-size: 2em;
+    text-align: left;
+    font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+    color: #7495d7;
+    margin: 40px 0 20px 20px;
+    float: left;
+    width: 60%; }
+  .about-us-body p {
+    text-align: left;
+    font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    width: 60%;
+    margin: 0 0 20px 20px;
+    float: left; }
+  .about-us-body img {
+    display: block;
+    width: 150px;
+    padding: 10px 0 0 10%; }
+
+  .about-us-philosophy h2 {
+    font-family: "camptonbold_demo";
+    color: #7495d7;
+    font-size: 2em; }
+  .about-us-philosophy img {
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 30px 0; }
+  .about-us-philosophy .honesty {
+    width: 310px;
+    display: inline-block; }
+  .about-us-philosophy #value-1 h3 {
+    color: #483d8b; }
+  .about-us-philosophy #value-2 h3 {
+    color: #1b153e; }
+  .about-us-philosophy #value-3 h3 {
+    color: #1b153e; }
+  .about-us-philosophy #value-4 h3 {
+    color: #483d8b; }
 
   /* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
      CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
@@ -458,64 +589,62 @@ body {
     width: 90%;
     text-align: center;
     margin: 0 auto; }
+    .contact-main #gif-description {
+      display: flex; }
     .contact-main h1 {
       font-family: "camptonbold_demo";
       color: #483d8b;
       font-size: 3em;
       margin: 140px 0 40px 0; }
     .contact-main h2 {
-      font-size: 1.1em;
-      text-align: left;
-      margin: 13px 0 0 0;
+      font-size: 1em;
+      margin: 20px 0 40px 0;
       font-family: "camptonlight_demo", Arial, Helvetica, sans-serif; }
     .contact-main #message-gif {
       padding: 0;
       width: 400px;
+      height: 350px;
       text-align: center; }
 
-  .contact-form {
-    width: 70%;
+  .contact-form h2 {
     text-align: center;
-    margin: 0 auto; }
-    .contact-form h2 {
-      text-align: center;
-      font-family: "camptonbold_demo"; }
-    .contact-form p {
-      margin: 5px;
-      font-family: "camptonlight_demo";
-      text-align: center; }
-    .contact-form input {
-      width: 110px;
-      margin: 15px 0 0 10px;
-      font-family: "camptonlight_demo";
-      float: left; }
-    .contact-form textarea {
-      width: 400px;
-      margin: 15px 0 0 10px;
-      font-family: "camptonlight_demo";
-      height: 200px; }
-    .contact-form .contact-text-fields {
-      position: relative; }
-    .contact-form .contact-text-fields .fa-user {
-      position: absolute;
-      top: 30px;
-      left: 20px;
-      font-size: 25px; }
-    .contact-form .contact-text-fields .fa-globe {
-      position: absolute;
-      top: 30px;
-      left: 165px;
-      font-size: 25px; }
-    .contact-form .contact-text-fields .fa-phone {
-      position: absolute;
-      top: 30px;
-      left: 313px;
-      font-size: 25px; }
-    .contact-form .contact-text-fields .fa-envelope {
-      position: absolute;
-      top: 95px;
-      left: 20px;
-      font-size: 25px; } }
+    font-family: "camptonbold_demo"; }
+  .contact-form p {
+    margin: 5px;
+    font-family: "camptonlight_demo";
+    text-align: center; }
+  .contact-form input {
+    width: 110px;
+    margin: 15px 0 0 10px;
+    font-family: "camptonlight_demo";
+    float: left; }
+  .contact-form textarea {
+    width: 400px;
+    margin: 15px 0 0 10px;
+    font-family: "camptonlight_demo";
+    height: 200px; }
+  .contact-form .contact-text-fields {
+    position: relative; }
+  .contact-form .contact-text-fields .fa-user {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 25px; }
+  .contact-form .contact-text-fields .fa-globe {
+    position: absolute;
+    top: 30px;
+    left: 165px;
+    font-size: 25px; }
+  .contact-form .contact-text-fields .fa-phone {
+    position: absolute;
+    top: 30px;
+    left: 313px;
+    font-size: 25px; }
+  .contact-form .contact-text-fields .fa-envelope {
+    position: absolute;
+    top: 95px;
+    left: 20px;
+    font-size: 25px; } }
 @media (min-width: 1100px) {
   /* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
      GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
@@ -527,11 +656,11 @@ body {
   .navigation {
     margin-bottom: -71px; }
     .navigation a {
-      padding: 0 50px 0 50px;
+      margin: 0 20px 0 85px;
       text-decoration: none;
       color: black;
       font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
-      font-size: 1em; }
+      font-size: .9em; }
 
   /* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
      HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
@@ -549,9 +678,29 @@ body {
       text-align: left;
       font-family: "camptonbold_demo";
       color: #483d8b;
-      font-size: 2.3em;
-      margin: 130px 0 80px 50px;
+      font-size: 2.6em;
+      margin: 180px 0 80px 30px;
       width: 800px; }
+
+  .homepage-info h2 {
+    font-family: "camptonbold_demo";
+    font-size: 2.5em;
+    text-align: left;
+    width: 60%;
+    margin: 50px 0 50px 75px;
+    color: #7495d7;
+    float: left; }
+  .homepage-info p {
+    font-family: "camptonlight_demo";
+    font-size: 1.2em;
+    width: 60%;
+    margin: 0 0 20px 75px;
+    line-height: 1.4;
+    float: left; }
+  .homepage-info img {
+    float: left;
+    margin: -130px 0 120px 10%;
+    width: 200px; }
 
   .homepage-services {
     margin-left: 20%; }
@@ -563,13 +712,14 @@ body {
     text-align: center;
     font-family: "camptonbold_demo";
     color: #483d8b;
-    font-size: 3em;
-    margin: 140px 0 30px 0; }
+    font-size: 3.5em;
+    margin: 140px 0 40px 0; }
   .services-main h2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: center;
     font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
-    padding: 0 5px 0 5px; }
+    padding: 0 5px 0 5px;
+    margin: 0 0 40px 0; }
 
   .service-page-services {
     margin-left: 16%; }
@@ -588,27 +738,60 @@ body {
     text-align: center;
     font-family: "camptonbold_demo";
     color: #483d8b;
-    font-size: 3.1em; }
+    font-size: 3.5em; }
   .about-us-main h2 {
-    font-size: 1em;
+    font-size: 1.1em; }
+
+  .about-us-body {
+    padding: 10px 0 1px 0; }
+    .about-us-body h2 {
+      font-size: 2.5em;
+      text-align: left;
+      font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+      color: #7495d7;
+      margin: 50px 0 50px 75px;
+      float: left; }
+    .about-us-body p {
+      text-align: left;
+      font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+      font-size: 1.2em;
+      width: 60%;
+      margin: 0 0 20px 75px;
+      line-height: 1.4;
+      float: left; }
+    .about-us-body img {
+      display: block;
+      width: 200px;
+      padding: 60px 0 0 8%; }
+
+  .about-us-philosophy {
     text-align: center; }
+    .about-us-philosophy h2 {
+      font-family: "camptonbold_demo";
+      color: #7495d7;
+      font-size: 2.5em;
+      padding: 40px 0 0 0; }
+    .about-us-philosophy img {
+      width: 500px;
+      padding: 50px 0 0 0; }
+    .about-us-philosophy .value-container {
+      margin: -330px 0 0 450px; }
 
   /* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
      CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
      CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
   .contact-main {
-    width: 70%;
+    width: 80%;
     text-align: center;
     margin: 0 auto; }
     .contact-main h1 {
       font-family: "camptonbold_demo";
       color: #483d8b;
-      font-size: 3em;
+      font-size: 3.5em;
       margin: 140px 0 40px 0; }
     .contact-main h2 {
-      font-size: 1.2em;
-      text-align: left;
-      margin: 20px 0 0 25px;
+      font-size: 1.1em;
+      margin: 20px 0 20px 0px;
       font-family: "camptonlight_demo", Arial, Helvetica, sans-serif; }
     .contact-main #message-gif {
       width: 400px;
@@ -616,7 +799,6 @@ body {
       padding: 0; }
 
   .contact-form {
-    width: 70%;
     text-align: center;
     margin: 0 auto; }
     .contact-form h2 {

@@ -32,12 +32,13 @@ body{
 	margin-bottom: -70px;
 	z-index:200;
 
-
 	a{
 		padding:0 8px 0 8px;
 		text-decoration:none;
 		color:black;
 		font-family: $campton-light, Arial, Helvetica, sans-serif;
+		text-transform:uppercase;
+		font-size:.8em;
 	}
 
 	.nav-icon{
@@ -108,7 +109,7 @@ body{
 
 .footer{
 	
-	background-color:#f9f9f9;
+	background-color:$light-color;
 
 	h2{
 		text-transform:uppercase;
@@ -182,7 +183,29 @@ body{
 		margin: 80px 0 60px 0;
 	}
 
+}
 
+.homepage-info{
+
+	h2{
+		font-family:$campton-bold;
+		font-size:2.2em;
+		text-align:center;
+		width:90%;
+		margin:30px 0 30px 0;
+		color:$light-blue-color;
+	}
+
+	p{
+		font-family:$campton-light;
+		font-size:1.2em;
+		width:90%;
+		margin:0 0 20px 20px;
+	}
+
+	img{
+		display:none;
+	}
 }
 
 .homepage-services{
@@ -191,10 +214,10 @@ body{
 	padding:75px 0 40px 0;
 
 	img{
-		width:100px;
+		width:70px;
 		margin-left:50%;
 		background-color:$secondary-color;
-		padding:10px;
+		padding:20px;
 		border-radius:10%;
 
 	}
@@ -234,10 +257,11 @@ body{
 		}
 
 		h2{
-			font-size:1.2em;
+			font-size:1em;
 			text-align:center;
 			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			padding: 0 5px 0 5px;
+			margin:0 0 30px 0;
 
 		}
 
@@ -259,11 +283,12 @@ body{
 		}
 
 		img{
-			width:100px;
+			width:70px;
 			float:left;
 			margin:30px 0 0 0;
 			background-color:$secondary-color;
 			border-radius:10%;
+			padding:20px;
 		}
 
 	}
@@ -279,12 +304,14 @@ body{
 		h2{
 			font-size:2em;
 			font-family: $campton-bold;
-			color:$primary-color;
+			color:$light-blue-color;
 			margin:50px 0 0 0;
 		}
 
 		h3{
 			font-family: $campton-light;
+			font-size:1em;
+			margin:20px 0 30px 0;
 		}
 	}
 
@@ -294,7 +321,7 @@ body{
 		width:250px;
 		margin:50px 0 0 15%;
 
-		background-color:#f0f1f2;
+		background-color:$light-color;
 		z-index:100;
 	}
 
@@ -383,11 +410,11 @@ body{
 			text-align:center;
 			font-family: $campton-bold;
 			color:$primary-color;
-			font-size:2.6em;
+			font-size:3em;
 			margin: 140px 0 30px 0;
 		}
 
-		p{
+		h2{
 			font-size:.9em;
 			text-align:center;
 			font-family: $campton-light, Arial, Helvetica, sans-serif;
@@ -396,16 +423,84 @@ body{
 
 	}
 	.about-us-body{
-		text-align:Center;
+		text-align:center;
+		background-color:$light-color;
+		padding:15px 0 15px 0;
 
-		img{
-
-		}
 
 		h2{
-			font-size:1em;
+			font-size:2em;
 			text-align:center;
+			font-family: $campton-bold, Arial, Helvetica, sans-serif;
+			color:$light-blue-color;
+		}
+
+		p{
+			text-align:left;
 			font-family: $campton-light, Arial, Helvetica, sans-serif;
+		    font-size: 1.2em;
+		    width: 90%;
+		    margin: 0 0 20px 20px;
+		}
+
+		img{
+			display:none;
+			width: 150px;
+			margin:50px 0 100px 0;
+		}
+
+	}
+
+	.about-us-philosophy{
+
+		text-align:center;
+
+		h2{
+			font-family:$campton-bold;
+			color:$light-blue-color;
+			font-size:2em;
+			padding:40px 0 0 0;
+		}
+
+		h4{
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
+		}
+
+		img{
+			width:250px;
+		}
+
+		h3{
+			font-family: $campton-bold, Arial, Helvetica, sans-serif;
+			text-align:left;
+			padding:0 0 0 25px;
+		}
+
+		p{
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
+			text-align:left;
+			padding:0 0 0 25px;
+			width:80%;
+		}
+		
+		.value-container{
+			display:none;
+		}
+		.honesty{
+			padding:0;
+		}
+
+		#value-1 h3{
+			color:$primary-color;
+		}
+		#value-2 h3{
+			color:$secondary-color;
+		}
+		#value-3 h3{
+			color:$primary-color;
+		}
+		#value-4 h3{
+			color:$secondary-color;
 		}
 
 	}
@@ -425,19 +520,19 @@ body{
 			font-family: $campton-bold;
 			color:$primary-color;
 			font-size:3em;
-			margin: 140px 0 40px 0;
+			margin: 140px 0 20px 0;
 		}
 
 		h2{
-			font-size:1.1em;
-			text-align:left;
-			margin:0 5px;
+			font-size:1em;
+			margin:40px 0;
 			font-family: $campton-light, Arial, Helvetica, sans-serif;
 		}
 
 		#message-gif{
 			margin:0 0 0 -5px;
-			padding:0;
+			padding:0 0 50px 0;
+			width:300px;
 		}
 
 	}
@@ -451,6 +546,8 @@ body{
 		h2{
 			text-align:center;
 			font-family:$campton-bold;
+			color:$light-blue-color;
+			font-size:2em;
 		}
 
 		p{
@@ -562,7 +659,8 @@ body{
 
 
 		a{
-			padding:0 30px 0 30px;
+			padding:0 0 0 0;
+			margin-left:55px;
 		}
 	}
 
@@ -594,6 +692,34 @@ body{
 			font-size:2.1em;
 		}
 
+	}
+
+	.homepage-info{
+
+		h2{
+			font-family:$campton-bold;
+			font-size:2.2em;
+			text-align:left;
+			width:90%;
+			margin:30px 0 30px 20px;
+			color:$light-blue-color;
+			float:left;
+		}
+
+		p{
+			font-family:$campton-light;
+			font-size:1.2em;
+			width:60%;
+			margin:0 0 20px 20px;
+			float:left;
+		}
+
+		img{
+			display:block;
+			float:left;
+			margin:-100px 0 120px 10%;
+			width:150px;
+		}
 	}
 
 	.homepage-services{
@@ -672,11 +798,76 @@ body{
 		}
 
 		h2{
-			font-size:1.3em;
+			font-size:1em;
+
+		}
+	}
+
+	.about-us-body{
+
+			h2{
+				font-size:2em;
+				text-align:left;
+				font-family: $campton-bold, Arial, Helvetica, sans-serif;
+				color:$light-blue-color;
+			    margin:40px 0 20px 20px;
+			    float:left;
+			    width:60%;
+			}
+
+			p{
+				text-align:left;
+				font-family: $campton-light, Arial, Helvetica, sans-serif;
+			    font-size: 1.2em;
+			    width: 60%;
+			    margin: 0 0 20px 20px;
+			    float:left;
+			}
+
+			img{
+				display:block;
+    			width: 150px;
+
+    			padding:10px 0 0 10%;
+			}
 
 		}
 
-	}
+		.about-us-philosophy{
+
+
+			h2{
+				font-family:$campton-bold;
+				color:$light-blue-color;
+				font-size:2em;
+			}
+
+			img{
+				width:300px;
+				display:block;
+				margin:0 auto;
+				padding:0 0 30px 0;
+			}
+
+			.honesty{
+				width:310px;
+				display:inline-block;
+			}
+			#value-1 h3{
+				color:$primary-color;
+			}
+			#value-2 h3{
+				color:$secondary-color;
+			}
+			#value-3 h3{
+				color:$secondary-color;
+			}
+			#value-4 h3{
+				color:$primary-color;
+			}
+
+		}
+
 /* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
    CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
    CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
@@ -687,6 +878,10 @@ body{
 		text-align:center;
 		margin:0 auto;
 
+		#gif-description{
+			display:flex;
+		}
+
 		h1{
 
 			font-family: $campton-bold;
@@ -696,25 +891,21 @@ body{
 		}
 
 		h2{
-			font-size:1.1em;
-			text-align:left;
-			margin:13px 0 0 0;
+			font-size:1em;
+			margin:20px 0 40px 0;
 			font-family: $campton-light, Arial, Helvetica, sans-serif;
 		}
 
 		#message-gif{
 			padding:0;
 			width:400px;
+			height:350px;
 			text-align:center;
 		}
 
 	}
 
 	.contact-form{
-
-		width:70%;
-		text-align:center;
-		margin:0 auto;
 
 
 		h2{
@@ -796,12 +987,13 @@ body{
 	.navigation{
 
 		margin-bottom: -71px;
+		
 		a{
-			padding:0 50px 0 50px;
+			margin:0 20px 0 85px;
 			text-decoration:none;
 			color:black;
 			font-family: $campton-light, Arial, Helvetica, sans-serif;
-			font-size: 1em;
+			font-size: .9em;
 		}
 	}
 
@@ -827,12 +1019,41 @@ body{
 			text-align:left;
 			font-family: $campton-bold;
 			color:$primary-color;
-			font-size:2.3em;
-			margin: 130px 0 80px 50px;
+			font-size:2.6em;
+			margin: 180px 0 80px 30px;
 			width:800px;
 		}
 
 	}
+
+	.homepage-info{
+
+		h2{
+			font-family:$campton-bold;
+			font-size:2.5em;
+			text-align:left;
+			width:60%;
+			margin:50px 0 50px 75px;
+			color:$light-blue-color;
+			float:left;
+		}
+
+		p{
+			font-family:$campton-light;
+			font-size:1.2em;
+			width:60%;
+			margin:0 0 20px 75px;
+			line-height:1.4;
+			float:left;
+		}
+
+		img{
+			float:left;
+			margin:-130px 0 120px 10%;
+			width:200px;
+		}
+	}
+
 
 	.homepage-services{
 		margin-left:20%;
@@ -849,15 +1070,16 @@ body{
 			text-align:center;
 			font-family: $campton-bold;
 			color:$primary-color;
-			font-size:3em;
-			margin: 140px 0 30px 0;
+			font-size:3.5em;
+			margin: 140px 0 40px 0;
 		}
 
 		h2{
-			font-size:1.2em;
+			font-size:1.1em;
 			text-align:center;
 			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			padding: 0 5px 0 5px;
+			margin:0 0 40px 0;
 
 		}
 
@@ -895,13 +1117,64 @@ body{
 			text-align:center;
 			font-family: $campton-bold;
 			color:$primary-color;
-			font-size:3.1em;
+			font-size:3.5em;
 		}
 
 		h2{
-			font-size:1em;
-			text-align:center;
+			font-size:1.1em;
 		}
+
+	}
+
+	.about-us-body{
+		padding:10px 0 1px 0;
+			h2{
+				font-size:2.5em;
+				text-align:left;
+				font-family: $campton-bold, Arial, Helvetica, sans-serif;
+				color:$light-blue-color;
+				margin: 50px 0 50px 75px;			    
+				float:left;
+			}
+
+			p{
+				text-align:left;
+				font-family: $campton-light, Arial, Helvetica, sans-serif;
+			    font-size: 1.2em;
+			    width: 60%;
+			    margin: 0 0 20px 75px;
+			    line-height: 1.4;			    
+			    float:left;
+			}
+
+			img{
+				display:block;
+    			width: 200px;
+    			padding:60px 0 0 8%;
+			}
+
+	}
+
+	.about-us-philosophy{
+
+		text-align:center;
+
+		h2{
+			font-family:$campton-bold;
+			color:$light-blue-color;
+			font-size:2.5em;
+			padding: 40px 0 0 0;
+		}
+
+		img{
+			width:500px;
+			padding:50px 0 0 0;
+		}
+
+		.value-container{
+			margin:-330px 0 0 450px;
+		}
+
 
 	}
 
@@ -912,7 +1185,7 @@ body{
 
 	.contact-main{
 
-		width:70%;
+		width:80%;
 		text-align:center;
 		margin:0 auto;
 
@@ -920,14 +1193,13 @@ body{
 
 			font-family: $campton-bold;
 			color:$primary-color;
-			font-size:3em;
+			font-size:3.5em;
 			margin: 140px 0 40px 0;
 		}
 
 		h2{
-			font-size:1.2em;
-			text-align:left;
-			margin:20px 0 0 25px;
+			font-size:1.1em;
+			margin:20px 0 20px 0px;
 			font-family: $campton-light, Arial, Helvetica, sans-serif;
 		}
 
@@ -940,7 +1212,6 @@ body{
 
 	.contact-form{
 
-		width:70%;
 		text-align:center;
 		margin:0 auto;
 
