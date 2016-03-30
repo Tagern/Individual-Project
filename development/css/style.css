@@ -31,7 +31,7 @@ a {
 header {
   text-align: center; }
   header img {
-    width: 400px;
+    width: 380px;
     margin: -30px 0 -30px 0; }
 
 body {
@@ -49,6 +49,36 @@ body {
     text-decoration: none;
     color: black;
     font-family: "camptonlight_demo", Arial, Helvetica, sans-serif; }
+  .navigation .nav-icon {
+    position: relative;
+    color: #000;
+    font-size: 16px;
+    margin: 10px 0 0 0; }
+  .navigation .nav-icon .fa-send-o {
+    position: absolute;
+    top: -15px;
+    font-size: 15px;
+    margin-left: 38px; }
+  .navigation .nav-icon .fa-bookmark-o {
+    position: absolute;
+    top: -15px;
+    font-size: 15px;
+    margin-left: 22px; }
+  .navigation .nav-icon .fa-folder-open-o {
+    position: absolute;
+    top: -15px;
+    font-size: 15px;
+    margin-left: 33px; }
+  .navigation .nav-icon .fa-code {
+    position: absolute;
+    top: -15px;
+    font-size: 15px;
+    margin-left: 20px; }
+  .navigation .nav-icon .fa-envelope-o {
+    position: absolute;
+    top: -15px;
+    font-size: 15px;
+    margin-left: 30px; }
 
 #line {
   box-shadow: 0px 1px 1px #bfbfbf;
@@ -68,7 +98,7 @@ body {
   margin: 50px auto; }
 
 .footer {
-  background-color: #f0f1f2; }
+  background-color: #f9f9f9; }
   .footer h2 {
     text-transform: uppercase;
     font-family: "camptonlight_demo";
@@ -104,23 +134,25 @@ body {
 /* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
    HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
    HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
-.homepage-main .main-background-color {
-  background-color: #f0f1f2;
-  height: 550px;
-  margin-top: 10px; }
-.homepage-main h1 {
-  text-align: center;
-  font-family: "camptonbold_demo";
-  color: #483d8b;
-  font-size: 1.8em;
-  margin: 160px 0 80px 0; }
-.homepage-main h2 {
-  font-size: 1em;
+.homepage-main {
+  background-color: #f9f9f9;
+  margin-top: 1px;
+  padding: 50px 0 0 0;
   text-align: center; }
+  .homepage-main .homepage-gif {
+    margin: 0 0 50px 0;
+    width: 350px; }
+  .homepage-main h1 {
+    text-align: center;
+    font-family: "camptonbold_demo";
+    color: #483d8b;
+    font-size: 1.8em;
+    margin: 80px 0 60px 0; }
 
 .homepage-services {
   width: 70%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 75px 0 40px 0; }
   .homepage-services img {
     width: 100px;
     margin-left: 50%;
@@ -248,12 +280,13 @@ body {
   text-align: center;
   font-family: "camptonbold_demo";
   color: #483d8b;
-  font-size: 2.2em;
-  margin: 140px 0 40px 0; }
-.about-us-main h2 {
-  font-size: 1em;
+  font-size: 2.6em;
+  margin: 140px 0 30px 0; }
+.about-us-main p {
+  font-size: .9em;
   text-align: center;
-  font-family: "camptonlight_demo", Arial, Helvetica, sans-serif; }
+  font-family: "camptonlight_demo", Arial, Helvetica, sans-serif;
+  margin: 0 0 60px 0; }
 
 .about-us-body {
   text-align: Center; }
@@ -320,8 +353,7 @@ body {
   .contact-form .contact-text-fields input {
     height: 32px;
     border: 1px solid #aaa;
-    border-radius: 5px; }
-  .contact-form .contact-text-fields input {
+    border-radius: 5px;
     text-indent: 32px; }
   .contact-form .contact-text-fields textarea {
     border: 1px solid #aaa;
@@ -368,6 +400,9 @@ body {
   /* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
      HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
      HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+  .homepage-main .homepage-gif {
+    width: 400px;
+    margin: 0 0 75px 35px; }
   .homepage-main h1 {
     text-align: center;
     font-family: "camptonbold_demo";
@@ -501,12 +536,22 @@ body {
   /* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
      HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
      HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
-  .homepage-main h1 {
-    text-align: center;
-    font-family: "camptonbold_demo";
-    color: #483d8b;
-    font-size: 2.5em;
-    margin: 160px 100px 80px 100px; }
+  .homepage-main {
+    text-align: left; }
+    .homepage-main .title-gif {
+      display: flex;
+      flex-direction: row-reverse; }
+    .homepage-main .homepage-gif {
+      width: 500px;
+      height: 400px;
+      margin: 40px 30px 70px 30px; }
+    .homepage-main h1 {
+      text-align: left;
+      font-family: "camptonbold_demo";
+      color: #483d8b;
+      font-size: 2.3em;
+      margin: 130px 0 80px 50px;
+      width: 800px; }
 
   .homepage-services {
     margin-left: 20%; }

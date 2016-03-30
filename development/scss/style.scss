@@ -14,9 +14,8 @@ header{
 		text-align:center;
 
 		img{
-			width:400px;
+			width:380px;
 			margin:-30px 0 -30px 0;
-
 		}
 	}
 
@@ -40,6 +39,49 @@ body{
 		color:black;
 		font-family: $campton-light, Arial, Helvetica, sans-serif;
 	}
+
+	.nav-icon{
+	  position: relative;
+	  color: #000;
+	  font-size: 16px;
+	  margin: 10px 0 0 0;
+	}
+
+	.nav-icon .fa-send-o { 
+	  position: absolute;
+	  top:-15px;
+	  font-size:15px;
+	  margin-left:38px;
+	}
+
+	.nav-icon .fa-bookmark-o { 
+	  position: absolute;
+	  top:-15px;
+	  font-size:15px;
+	  margin-left:22px;
+	}
+
+	.nav-icon .fa-folder-open-o { 
+	  position: absolute;
+	  top:-15px;
+	  font-size:15px;
+	  margin-left:33px;
+	}
+
+	.nav-icon .fa-code { 
+	  position: absolute;
+	  top:-15px;
+	  font-size:15px;
+	  margin-left:20px;
+	}
+
+	.nav-icon .fa-envelope-o { 
+	  position: absolute;
+	  top:-15px;
+	  font-size:15px;
+	  margin-left:30px;
+	}
+
 }
 
 #line{
@@ -66,7 +108,7 @@ body{
 
 .footer{
 	
-	background-color:#f0f1f2;
+	background-color:#f9f9f9;
 
 	h2{
 		text-transform:uppercase;
@@ -121,12 +163,15 @@ body{
    HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
 
 .homepage-main{
-	
 
-	.main-background-color{
-		background-color:#f0f1f2;
-		height:550px;
-		margin-top:10px;
+	background-color:#f9f9f9;
+	margin-top:1px;
+	padding:50px 0 0 0;
+	text-align:center;
+
+	.homepage-gif{
+		margin:0 0 50px 0;
+		width:350px;
 	}
 
 	h1{
@@ -134,12 +179,7 @@ body{
 		font-family: $campton-bold;
 		color:$primary-color;
 		font-size:1.8em;
-		margin: 160px 0 80px 0;
-	}
-
-	h2{
-		font-size:1em;
-		text-align:center;
+		margin: 80px 0 60px 0;
 	}
 
 
@@ -148,6 +188,7 @@ body{
 .homepage-services{
 	width:70%;
 	margin:0 auto;
+	padding:75px 0 40px 0;
 
 	img{
 		width:100px;
@@ -342,14 +383,15 @@ body{
 			text-align:center;
 			font-family: $campton-bold;
 			color:$primary-color;
-			font-size:2.2em;
-			margin: 140px 0 40px 0;
+			font-size:2.6em;
+			margin: 140px 0 30px 0;
 		}
 
-		h2{
-			font-size:1em;
+		p{
+			font-size:.9em;
 			text-align:center;
 			font-family: $campton-light, Arial, Helvetica, sans-serif;
+			margin: 0 0 60px 0;
 		}
 
 	}
@@ -455,11 +497,7 @@ body{
 		  height: 32px;
 		  border: 1px solid #aaa;
 		  border-radius: 5px;
-
-		}
-
-		.contact-text-fields input{ 
-			text-indent: 32px;
+		  text-indent: 32px;
 		}
 
 		.contact-text-fields textarea{
@@ -542,6 +580,13 @@ body{
 
 	.homepage-main{
 	
+		.homepage-gif{
+			width:400px;
+			margin:0 0 75px 35px;
+
+
+		}
+
 		h1{
 			text-align:center;
 			font-family:$campton-bold;
@@ -765,17 +810,26 @@ body{
    HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
 
 	.homepage-main{
-	
-		h1{
-			text-align:center;
-			font-family: $campton-bold;
-			color:$primary-color;
-			font-size:2.5em;
-			margin: 160px 100px 80px 100px;
+		text-align:left;
+
+		.title-gif{
+			display:flex;
+			flex-direction: row-reverse;
 		}
 
-		h2{
-		
+		.homepage-gif{
+			width:500px;
+			height:400px;
+			margin: 40px 30px 70px 30px;
+		}
+	
+		h1{
+			text-align:left;
+			font-family: $campton-bold;
+			color:$primary-color;
+			font-size:2.3em;
+			margin: 130px 0 80px 50px;
+			width:800px;
 		}
 
 	}
