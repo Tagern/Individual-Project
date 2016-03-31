@@ -1,5 +1,7 @@
 @import 'variables';
 @import 'fonts';
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600);
+
 
 /* GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
    GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
@@ -36,7 +38,8 @@ body{
 		padding:0 8px 0 8px;
 		text-decoration:none;
 		color:black;
-		font-family: $campton-light, Arial, Helvetica, sans-serif;
+		font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+		font-weight:400;
 		text-transform:uppercase;
 		font-size:.8em;
 	}
@@ -125,7 +128,8 @@ body{
 	}
 
 	p{
-		font-family: $campton-light;
+		font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+		font-weight:400;
 		text-align:center;
 	}
 
@@ -183,6 +187,48 @@ body{
 		margin: 80px 0 60px 0;
 	}
 
+	.home-gif-container{
+
+		position:relative;
+
+		.gif-icons{
+			position:absolute;
+			width:50px;
+			margin:30px 0 0 -350px;
+
+		}
+
+		#strategy-icon{
+			animation-delay:3.6s;
+		}
+
+		#design-icon{
+			margin-top:100px;
+			animation-delay:2.8s;
+		}
+
+		#dev-icon{
+			margin:0 0 0 -275px;
+			animation-delay:3s;
+
+		}
+
+		#commerce-icon{
+			margin: 150px 0 0 -50px;
+			animation-delay:3.8s;
+		}
+
+		#cms-icon{
+			margin: 220px 0 0 -65px;
+			animation-delay:3.2s;
+		}
+
+		#ux-icon{
+			margin: 245px 0 0 -130px;
+			animation-delay:3.4s;
+		}
+	}
+
 }
 
 .homepage-info{
@@ -190,14 +236,15 @@ body{
 	h2{
 		font-family:$campton-bold;
 		font-size:2.2em;
-		text-align:center;
+		text-align:left;
 		width:90%;
-		margin:30px 0 30px 0;
+		margin:30px 0 30px 20px;
 		color:$light-blue-color;
 	}
 
 	p{
-		font-family:$campton-light;
+		font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+		font-weight:300;		
 		font-size:1.2em;
 		width:90%;
 		margin:0 0 20px 20px;
@@ -223,6 +270,9 @@ body{
 	}
 
 	p{
+		font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+		font-weight:400;
+		color:black;
 		text-align:center;
 		margin:20px 0 0 55px;
 		width:100%;
@@ -242,11 +292,76 @@ body{
 	}
 }
 
+/* WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	
+   WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  
+   WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	*/
+
+   .work-main{
+
+   		margin-top:1px;
+		background-color:$light-color;
+		padding:15px 0 30px 0;
+	
+		h1{
+			text-align:center;
+			font-family: $campton-bold, Arial, Helvetica, sans-serif;
+			color:$primary-color;
+			font-size:3em;
+			margin: 140px 0 30px 0;
+		}
+
+		h2{
+			font-size:1em;
+			text-align:center;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
+			padding: 0 5px 0 5px;
+			margin:0 0 30px 0;
+		}
+   
+   }
+
+   .work-gallery{
+
+   		text-align: center;
+   		padding:30px 0 10px 0;
+
+   		.project-thumbnail{
+   			border:1px solid transparent;
+   			width:400px;
+   			height:250px;
+   			background-color:$secondary-color;
+   			display:inline-block;
+   		}
+   }
+
+   .work-testimonial{
+   		text-align:center;
+   		h2{
+			font-family: $campton-bold, Arial, Helvetica, sans-serif;
+			font-size:2em;
+			color:$light-blue-color;
+   		}
+
+   		p{
+		font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+		font-weight:400;
+   		}
+
+   		h3{
+		font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+		font-weight:500;
+
+   		}
+   }
+
 /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
    SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
    SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
 
    .services-main{
+   		margin-top:1px;
+		background-color:$light-color;
+		padding:15px 0 30px 0;
 	
 		h1{
 			text-align:center;
@@ -270,6 +385,8 @@ body{
 	}
 
 	.service-page-services{
+
+		padding-top:40px;
 		
 		h3{
 			font-family: $campton-bold;
@@ -277,7 +394,8 @@ body{
 		}
 
 		p{
-			font-family: $campton-light, Arial, Helvetica, sans-serif;
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:400;			
 			width:250px;
 			margin:10px 0 0 120px;
 		}
@@ -345,7 +463,8 @@ body{
 		}
 
 		p{
-			font-family: $campton-light, Arial, Helvetica, sans-serif;
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:300;			
 			padding:0 15px 0 15px;
 		}
 	}
@@ -370,7 +489,8 @@ body{
 		}
 
 		p{
-			font-family: $campton-light, Arial, Helvetica, sans-serif;
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:300;
 			padding:0 15px 0 15px;
 		}
 	}
@@ -395,7 +515,8 @@ body{
 		}
 
 		p{
-			font-family: $campton-light, Arial, Helvetica, sans-serif;
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:300;
 			padding:0 15px 0 15px;
 		}
 	}
@@ -405,13 +526,17 @@ body{
    ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US     */
 
 	.about-us-main{
-		
+		margin-top:1px;			
+		background-color:$light-color;
+		padding:15px 0 30px 0;
+
 		h1{
 			text-align:center;
 			font-family: $campton-bold;
 			color:$primary-color;
 			font-size:3em;
 			margin: 140px 0 30px 0;
+
 		}
 
 		h2{
@@ -424,7 +549,6 @@ body{
 	}
 	.about-us-body{
 		text-align:center;
-		background-color:$light-color;
 		padding:15px 0 15px 0;
 
 
@@ -437,7 +561,8 @@ body{
 
 		p{
 			text-align:left;
-			font-family: $campton-light, Arial, Helvetica, sans-serif;
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:300;
 		    font-size: 1.2em;
 		    width: 90%;
 		    margin: 0 0 20px 20px;
@@ -477,7 +602,8 @@ body{
 		}
 
 		p{
-			font-family: $campton-light, Arial, Helvetica, sans-serif;
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:300;
 			text-align:left;
 			padding:0 0 0 25px;
 			width:80%;
@@ -510,10 +636,10 @@ body{
    CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
 
 	.contact-main{
-
-		width:90%;
+		background-color:$light-color;
+		padding:15px 0 30px 0;
 		text-align:center;
-		margin:0 auto;
+		margin:0 auto;			
 
 		h1{
 
@@ -529,12 +655,21 @@ body{
 			font-family: $campton-light, Arial, Helvetica, sans-serif;
 		}
 
+
+	}
+	.contact-gif{
+
+		text-align:center;
+
 		#message-gif{
 			margin:0 0 0 -5px;
-			padding:0 0 50px 0;
+			padding:30px 0 0 0;
 			width:300px;
 		}
 
+		.line{
+			width:80%;
+		}
 	}
 
 	.contact-form{
@@ -552,7 +687,8 @@ body{
 
 		p{
 			margin:5px;
-			font-family:$campton-light;
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:300;
 			text-align:left;
 		}
 
@@ -687,17 +823,58 @@ body{
 
 		h1{
 			text-align:center;
-			font-family:$campton-bold;
 			color:$primary-color;
 			font-size:2.1em;
 		}
 
+		.home-gif-container{
+
+			position:relative;
+
+			.gif-icons{
+				position:absolute;
+				width:50px;
+				margin:30px 0 0 -375px;
+
+			}
+
+			#strategy-icon{
+				animation-delay:3.6s;
+			}
+
+			#design-icon{
+				margin:105px 0 0 -385px;
+				animation-delay:2.8s;
+			}
+
+			#dev-icon{
+				margin:10px 0 0 -295px;
+				animation-delay:3s;
+
+			}
+
+			#commerce-icon{
+				margin: 175px 0 0 -55px;
+				animation-delay:3.8s;
+			}
+
+			#cms-icon{
+				margin: 250px 0 0 -65px;
+				animation-delay:3.2s;
+			}
+
+			#ux-icon{
+				margin: 275px 0 0 -145px;
+				animation-delay:3.4s;
+			}
+		}
 	}
+
+	
 
 	.homepage-info{
 
 		h2{
-			font-family:$campton-bold;
 			font-size:2.2em;
 			text-align:left;
 			width:90%;
@@ -707,7 +884,7 @@ body{
 		}
 
 		p{
-			font-family:$campton-light;
+			font-weight:300;			
 			font-size:1.2em;
 			width:60%;
 			margin:0 0 20px 20px;
@@ -744,12 +921,10 @@ body{
 		margin-left:10%;
 		
 		h3{
-			font-family: $campton-bold;
 			margin:30px 0 0 120px;
 		}
 
 		p{
-			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			width:210px;
 			margin:10px 0 0 120px;
 		}
@@ -792,7 +967,6 @@ body{
 	
 		h1{
 			text-align:center;
-			font-family:$campton-bold;
 			color:$primary-color;
 			font-size:2.7em;
 		}
@@ -808,7 +982,6 @@ body{
 			h2{
 				font-size:2em;
 				text-align:left;
-				font-family: $campton-bold, Arial, Helvetica, sans-serif;
 				color:$light-blue-color;
 			    margin:40px 0 20px 20px;
 			    float:left;
@@ -817,7 +990,6 @@ body{
 
 			p{
 				text-align:left;
-				font-family: $campton-light, Arial, Helvetica, sans-serif;
 			    font-size: 1.2em;
 			    width: 60%;
 			    margin: 0 0 20px 20px;
@@ -837,9 +1009,9 @@ body{
 
 
 			h2{
-				font-family:$campton-bold;
 				color:$light-blue-color;
 				font-size:2em;
+				padding:0 0 0 0;
 			}
 
 			img{
@@ -872,9 +1044,8 @@ body{
    CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
    CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
 
-.contact-main{
+	.contact-main{
 
-		width:90%;
 		text-align:center;
 		margin:0 auto;
 
@@ -884,7 +1055,6 @@ body{
 
 		h1{
 
-			font-family: $campton-bold;
 			color:$primary-color;
 			font-size:3em;
 			margin: 140px 0 40px 0;
@@ -893,43 +1063,44 @@ body{
 		h2{
 			font-size:1em;
 			margin:20px 0 40px 0;
-			font-family: $campton-light, Arial, Helvetica, sans-serif;
 		}
 
-		#message-gif{
-			padding:0;
-			width:400px;
-			height:350px;
-			text-align:center;
-		}
 
 	}
+
+	.contact-gif{
+
+		text-align:center;
+		
+		#message-gif{
+			padding:30px 0 0 0;
+			width:400px;
+		}
+	}
+
+
 
 	.contact-form{
 
 
 		h2{
 			text-align:center;
-			font-family:$campton-bold;
 		}
 
 		p{
 			margin:5px;
-			font-family:$campton-light;
 			text-align:center;
 		}
 
 		input{
 			width:110px;
 			margin:15px 0 0 10px;
-			font-family: $campton-light;
 			float:left;
 		}
 
 		textarea{
 			width:400px;
 			margin:15px 0 0 10px;
-			font-family: $campton-light;
 			height:200px;
 
 		}
@@ -992,7 +1163,6 @@ body{
 			margin:0 20px 0 85px;
 			text-decoration:none;
 			color:black;
-			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			font-size: .9em;
 		}
 	}
@@ -1012,16 +1182,57 @@ body{
 		.homepage-gif{
 			width:500px;
 			height:400px;
-			margin: 40px 30px 70px 30px;
+			margin: 40px 30px 70px 0px;
 		}
 	
 		h1{
 			text-align:left;
-			font-family: $campton-bold;
 			color:$primary-color;
 			font-size:2.6em;
-			margin: 180px 0 80px 30px;
-			width:800px;
+			margin: 160px 0 80px 30px;
+			width:700px;
+		}
+
+		.home-gif-container{
+
+
+			position:relative;
+
+			.gif-icons{
+				position:absolute;
+				width:55px;
+			}
+
+			#strategy-icon{
+				margin:-430px 0 0 60px;
+				animation-delay:3.6s;
+			}
+
+			#design-icon{
+				margin:-350px 0 0 45px;
+				animation-delay:2.8s;
+			}
+
+			#dev-icon{
+				margin:-455px 0 0 150px;
+				animation-delay:3s;
+
+			}
+
+			#commerce-icon{
+				margin: -260px 0 0 460px;
+				animation-delay:3.8s;
+			}
+
+			#cms-icon{
+				margin: -180px 0 0 440px;
+				animation-delay:3.2s;
+			}
+
+			#ux-icon{
+				margin: -155px 0 0 360px;
+				animation-delay:3.4s;
+			}
 		}
 
 	}
@@ -1029,7 +1240,6 @@ body{
 	.homepage-info{
 
 		h2{
-			font-family:$campton-bold;
 			font-size:2.5em;
 			text-align:left;
 			width:60%;
@@ -1039,7 +1249,7 @@ body{
 		}
 
 		p{
-			font-family:$campton-light;
+			font-weight:300;
 			font-size:1.2em;
 			width:60%;
 			margin:0 0 20px 75px;
@@ -1068,7 +1278,6 @@ body{
 
 		h1{
 			text-align:center;
-			font-family: $campton-bold;
 			color:$primary-color;
 			font-size:3.5em;
 			margin: 140px 0 40px 0;
@@ -1077,7 +1286,6 @@ body{
 		h2{
 			font-size:1.1em;
 			text-align:center;
-			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			padding: 0 5px 0 5px;
 			margin:0 0 40px 0;
 
@@ -1090,12 +1298,10 @@ body{
 		margin-left:16%;
 
 		h3{
-			font-family: $campton-bold;
 			margin:30px 0 0 120px;
 		}
 
 		p{
-			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			width:250px;
 			margin:10px 0 0 120px;
 		}
@@ -1115,7 +1321,6 @@ body{
 	
 		h1{
 			text-align:center;
-			font-family: $campton-bold;
 			color:$primary-color;
 			font-size:3.5em;
 		}
@@ -1131,7 +1336,6 @@ body{
 			h2{
 				font-size:2.5em;
 				text-align:left;
-				font-family: $campton-bold, Arial, Helvetica, sans-serif;
 				color:$light-blue-color;
 				margin: 50px 0 50px 75px;			    
 				float:left;
@@ -1139,7 +1343,6 @@ body{
 
 			p{
 				text-align:left;
-				font-family: $campton-light, Arial, Helvetica, sans-serif;
 			    font-size: 1.2em;
 			    width: 60%;
 			    margin: 0 0 20px 75px;
@@ -1159,16 +1362,21 @@ body{
 
 		text-align:center;
 
+
 		h2{
-			font-family:$campton-bold;
 			color:$light-blue-color;
 			font-size:2.5em;
-			padding: 40px 0 0 0;
+			padding: 0px 0 0 0;
 		}
+
 
 		img{
 			width:500px;
 			padding:50px 0 0 0;
+		}
+
+		#moving-cog{
+			position:relative;
 		}
 
 		.value-container{
@@ -1185,13 +1393,11 @@ body{
 
 	.contact-main{
 
-		width:80%;
 		text-align:center;
 		margin:0 auto;
 
 		h1{
 
-			font-family: $campton-bold;
 			color:$primary-color;
 			font-size:3.5em;
 			margin: 140px 0 40px 0;
@@ -1200,13 +1406,17 @@ body{
 		h2{
 			font-size:1.1em;
 			margin:20px 0 20px 0px;
-			font-family: $campton-light, Arial, Helvetica, sans-serif;
 		}
 
+	}
+
+	.contact-gif{
+
+		text-align:center;
+		
 		#message-gif{
-			width:400px;
-			margin:0;
 			padding:0;
+			width:400px;
 		}
 	}
 
@@ -1218,25 +1428,21 @@ body{
 
 		h2{
 			text-align:center;
-			font-family:$campton-bold;
 		}
 
 		p{
 			margin:5px;
-			font-family:$campton-light;
 			text-align:center;
 		}
 
 		input{
 			width: 220px;
 			margin:15px 0 0 10px;
-			font-family: $campton-light;
 		}
 
 		textarea{
 			width:731px;
 			margin:15px 0 0 10px;
-			font-family: $campton-light;
 			height:200px;
 		}
 

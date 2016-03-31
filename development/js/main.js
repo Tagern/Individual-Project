@@ -13,19 +13,24 @@ $(window).scroll(function() {
 
 // TOGGLE DISPLAY
 function toggle_visibility() {
-   var e = document.getElementById('all-values');
-   if(e.style.display == 'block')
-      e.style.display = 'none';
-   else
-      e.style.display = 'block';
+  $( "#all-values" ).fadeToggle("400", function(){
+    if()
+  });
 }
+
 
 //DOCUMENT ONLOAD FOR SLIDE LEFT ELEMENT
 $(document).ready(function() {
-    if( $(window).width() > 1100 ) {
-    	$("#moving-cog").click(function() {
-    		document.getElementById("moving-cog").style.marginLeft = "-80px";
-    	});
+    if( $(window).width() > 1000 ) {
+
+      var checker = true;
+      $("#moving-cog").click(function () {
+          targetLeft = checker ? "-30%" : "0%";
+          $(this).animate({left: targetLeft});   
+          checker ? checker = false : checker = true;
+
+      }); 
+
     } 
     else {
     	$("#moving-cog").click(null);
@@ -36,16 +41,26 @@ $(document).ready(function() {
 
 //RESIZING FOR SLIDE LEFT ELEMENT
 $(window).resize(function() {
-    if( $(window).width() > 1100 ) {
-    	$("#moving-cog").click(function() {
-    		document.getElementById("moving-cog").style.marginLeft = "-80px";
-    	});
-    } else {
+    if( $(window).width() > 1000 ) {
+
+      var checker = true;
+      $("#moving-cog").click(function () {
+          targetLeft = checker ? "-30%" : "0%";
+          $(this).animate({left: targetLeft});   
+          checker ? checker = false : checker = true;
+      });
+
+    } 
+
+    else {
     	$("#moving-cog").unbind('click');
     	document.getElementById("moving-cog").style.marginLeft = "";
     }
     $("#moving-cog").click(toggle_visibility);
 });
+
+
+//testimonial slide will go here
 
 
 
