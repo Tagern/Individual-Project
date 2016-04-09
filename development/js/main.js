@@ -14,7 +14,6 @@ $(window).scroll(function() {
 // TOGGLE DISPLAY
 function toggle_visibility() {
   $( "#all-values" ).fadeToggle("400", function(){
-    if()
   });
 }
 
