@@ -430,7 +430,8 @@ body {
   .about-us-philosophy h3 {
     font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
     text-align: left;
-    padding: 0 0 0 25px; }
+    padding: 0 0 0 25px;
+    font-size: 2em; }
   .about-us-philosophy p {
     font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -669,8 +670,8 @@ body {
     float: left; }
   .about-us-body img {
     display: block;
-    width: 150px;
-    padding: 10px 0 0 10%; }
+    width: 170px;
+    padding: 50px 0 0 10%; }
 
   .about-us-philosophy h2 {
     color: #7495d7;
@@ -716,20 +717,19 @@ body {
       width: 400px; }
 
   .contact-form h2 {
-    text-align: center; }
+    text-align: center;
+    font-size: 2.3em; }
   .contact-form p {
     margin: 5px;
     text-align: center; }
   .contact-form input {
-    width: 110px;
-    margin: 15px 0 0 10px;
-    float: left; }
+    width: 130px; }
   .contact-form textarea {
-    width: 400px;
-    margin: 15px 0 0 10px;
+    width: 465px;
     height: 200px; }
   .contact-form .contact-text-fields {
-    position: relative; }
+    margin: 0 auto;
+    width: 500px; }
   .contact-form .contact-text-fields .fa-user {
     position: absolute;
     top: 30px;
@@ -738,12 +738,12 @@ body {
   .contact-form .contact-text-fields .fa-globe {
     position: absolute;
     top: 30px;
-    left: 165px;
+    left: 185px;
     font-size: 25px; }
   .contact-form .contact-text-fields .fa-phone {
     position: absolute;
     top: 30px;
-    left: 313px;
+    left: 353px;
     font-size: 25px; }
   .contact-form .contact-text-fields .fa-envelope {
     position: absolute;
@@ -925,12 +925,13 @@ body {
       margin: 5px;
       text-align: center; }
     .contact-form input {
-      width: 220px;
-      margin: 15px 0 0 10px; }
+      width: 164px; }
     .contact-form textarea {
-      width: 731px;
-      margin: 15px 0 0 10px;
+      width: 565px;
       height: 200px; }
+    .contact-form .contact-text-fields {
+      margin: 0 auto;
+      width: 600px; }
     .contact-form .contact-text-fields .fa-user {
       position: absolute;
       top: 30px;
@@ -939,12 +940,12 @@ body {
     .contact-form .contact-text-fields .fa-globe {
       position: absolute;
       top: 30px;
-      left: 280px;
+      left: 220px;
       font-size: 25px; }
     .contact-form .contact-text-fields .fa-phone {
       position: absolute;
       top: 30px;
-      left: 535px;
+      left: 420px;
       font-size: 25px; }
     .contact-form .contact-text-fields .fa-envelope {
       position: absolute;
@@ -958,10 +959,91 @@ body {
   /* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
      HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
      HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
+  .homepage-main .homepage-gif {
+    width: 500px;
+    height: 400px;
+    margin: 40px 150px 70px 0px; }
+  .homepage-main h1 {
+    text-align: left;
+    color: #483d8b;
+    font-size: 2.6em;
+    margin: 160px 150px 80px 30px;
+    width: 700px; }
+
   /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
      SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
      SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
   .service-page-services {
-    margin-left: 25%; } }
+    margin-left: 25%; }
+
+  /* ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US 
+     ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US
+     ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US     */
+  .about-us-philosophy {
+    text-align: center; }
+    .about-us-philosophy h3 {
+      font-family: "camptonbold_demo", Arial, Helvetica, sans-serif;
+      text-align: left;
+      padding: 0 0 0 25px; }
+    .about-us-philosophy p {
+      font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+      font-weight: 300;
+      text-align: left;
+      padding: 0 0 0 25px; }
+    .about-us-philosophy .value-container {
+      padding: 0 0 100px 0; }
+    .about-us-philosophy .honesty {
+      padding: 0 50px 0 40px;
+      width: 400px; }
+    .about-us-philosophy #value-1 h3 {
+      color: #483d8b; }
+    .about-us-philosophy #value-2 h3 {
+      color: #1b153e; }
+    .about-us-philosophy #value-3 h3 {
+      color: #483d8b; }
+    .about-us-philosophy #value-4 h3 {
+      color: #1b153e; }
+
+  /* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+     CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+     CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
+  .contact-form {
+    text-align: center;
+    margin: 0 auto; }
+    .contact-form h2 {
+      text-align: center; }
+    .contact-form p {
+      margin: 5px;
+      text-align: center; }
+    .contact-form input {
+      width: 180px;
+      margin: 15px 0 0 10px; }
+    .contact-form textarea {
+      width: 613px;
+      margin: 15px 0 0 10px;
+      height: 200px; }
+    .contact-form .contact-text-fields {
+      margin: 0 auto;
+      width: 650px; }
+    .contact-form .contact-text-fields .fa-user {
+      position: absolute;
+      top: 30px;
+      left: 20px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-globe {
+      position: absolute;
+      top: 30px;
+      left: 240px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-phone {
+      position: absolute;
+      top: 30px;
+      left: 455px;
+      font-size: 25px; }
+    .contact-form .contact-text-fields .fa-envelope {
+      position: absolute;
+      top: 95px;
+      left: 20px;
+      font-size: 25px; } }
 
 /*# sourceMappingURL=style.css.map */

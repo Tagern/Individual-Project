@@ -599,6 +599,7 @@ body{
 			font-family: $campton-bold, Arial, Helvetica, sans-serif;
 			text-align:left;
 			padding:0 0 0 25px;
+			font-size:2em;
 		}
 
 		p{
@@ -639,7 +640,7 @@ body{
 		background-color:$light-color;
 		padding:15px 0 30px 0;
 		text-align:center;
-		margin:0 auto;			
+		margin:0 auto;		
 
 		h1{
 
@@ -998,9 +999,9 @@ body{
 
 			img{
 				display:block;
-    			width: 150px;
+    			width: 170px;
 
-    			padding:10px 0 0 10%;
+    			padding:50px 0 0 10%;
 			}
 
 		}
@@ -1045,7 +1046,6 @@ body{
    CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
 
 	.contact-main{
-
 		text-align:center;
 		margin:0 auto;
 
@@ -1085,6 +1085,7 @@ body{
 
 		h2{
 			text-align:center;
+			font-size:2.3em;
 		}
 
 		p{
@@ -1093,19 +1094,17 @@ body{
 		}
 
 		input{
-			width:110px;
-			margin:15px 0 0 10px;
-			float:left;
+			width:130px;
 		}
 
 		textarea{
-			width:400px;
-			margin:15px 0 0 10px;
+			width:465px;
 			height:200px;
 
 		}
 		.contact-text-fields{
-			position:relative;
+			margin:0 auto;
+			width:500px;
 		}
 
 		.contact-text-fields .fa-user { 
@@ -1118,14 +1117,14 @@ body{
 		.contact-text-fields .fa-globe { 
 		  position: absolute;
 		  top: 30px;
-		  left: 165px;
+		  left: 185px;
 		  font-size:25px;
 		}
 
 		.contact-text-fields .fa-phone { 
 		  position: absolute;
 		  top: 30px;
-		  left: 313px;
+		  left: 353px;
 		  font-size:25px;
 		}
 
@@ -1425,7 +1424,6 @@ body{
 		text-align:center;
 		margin:0 auto;
 
-
 		h2{
 			text-align:center;
 		}
@@ -1436,14 +1434,17 @@ body{
 		}
 
 		input{
-			width: 220px;
-			margin:15px 0 0 10px;
+			width: 164px;
 		}
 
 		textarea{
-			width:731px;
-			margin:15px 0 0 10px;
+			width:565px;
 			height:200px;
+		}
+
+		.contact-text-fields{
+			margin:0 auto;
+			width:600px;
 		}
 
 		.contact-text-fields .fa-user { 
@@ -1456,14 +1457,14 @@ body{
 		.contact-text-fields .fa-globe { 
 		  position: absolute;
 		  top: 30px;
-		  left: 280px;
+		  left: 220px;
 		  font-size:25px;
 		}
 
 		.contact-text-fields .fa-phone { 
 		  position: absolute;
 		  top: 30px;
-		  left: 535px;
+		  left: 420px;
 		  font-size:25px;
 		}
 
@@ -1486,6 +1487,27 @@ body{
    HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
    HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
 
+   .homepage-main{
+
+		.homepage-gif{
+			width:500px;
+			height:400px;
+			margin: 40px 150px 70px 0px;
+		}
+	
+		h1{
+			text-align:left;
+			color:$primary-color;
+			font-size:2.6em;
+			margin: 160px 150px 80px 30px;
+			width:700px;
+		}
+
+		
+
+	}
+
+
 /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
    SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
    SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
@@ -1496,4 +1518,120 @@ body{
 
 	}
 
+
+
+/* ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US 
+   ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US
+   ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US     */
+
+	.about-us-philosophy{
+
+		text-align:center;
+
+
+		h3{
+			font-family: $campton-bold, Arial, Helvetica, sans-serif;
+			text-align:left;
+			padding:0 0 0 25px;
+		}
+
+		p{
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:300;
+			text-align:left;
+			padding:0 0 0 25px;
+		}
+		
+		.value-container{
+			padding:0 0 100px 0;
+		}
+		.honesty{
+			padding:0 50px 0 40px;
+			width:400px;
+		}
+
+		#value-1 h3{
+			color:$primary-color;
+		}
+		#value-2 h3{
+			color:$secondary-color;
+		}
+		#value-3 h3{
+			color:$primary-color;
+		}
+		#value-4 h3{
+			color:$secondary-color;
+		}
+
+	}
+/* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+   CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
+   CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
+
+
+	.contact-form{
+
+		text-align:center;
+		margin:0 auto;
+
+
+		h2{
+			text-align:center;
+		}
+
+		p{
+			margin:5px;
+			text-align:center;
+		}
+
+		input{
+			width: 180px;
+			margin:15px 0 0 10px;
+		}
+
+		textarea{
+			width:613px;
+			margin:15px 0 0 10px;
+			height:200px;
+		}
+
+		.contact-text-fields{
+			margin:0 auto;
+			width:650px;
+		}
+
+		.contact-text-fields .fa-user { 
+		  position: absolute;
+		  top: 30px;
+		  left: 20px;
+		  font-size:25px;
+		}
+
+		.contact-text-fields .fa-globe { 
+		  position: absolute;
+		  top: 30px;
+		  left: 240px;
+		  font-size:25px;
+		}
+
+		.contact-text-fields .fa-phone { 
+		  position: absolute;
+		  top: 30px;
+		  left: 455px;
+		  font-size:25px;
+		}
+
+		.contact-text-fields .fa-envelope { 
+		  position: absolute;
+		  top: 95px;
+		  left: 20px;
+		  font-size:25px;
+		}
+	}
+
+
 }
+
+
+
+
