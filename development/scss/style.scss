@@ -332,6 +332,11 @@ body{
    			background-color:$secondary-color;
    			display:inline-block;
    		}
+
+   		#work-thumbnail-jemma{
+   			background-image: url("../img/client-websites/jemma/jemma-thumbnail.png");
+   			background-size:cover;
+   		}
    }
 
    .work-testimonial{
@@ -353,6 +358,64 @@ body{
 
    		}
    }
+
+/* INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   	*/
+
+
+   .individual-work-gallery{
+
+   		text-align:center;
+
+   		h2{
+   			color:$light-blue-color;
+			font-family: $campton-bold, Arial, Helvetica, sans-serif;
+			padding: 20px 20px 0 20px;
+			font-size:2em;
+			text-align:left;
+			margin:20px 0 0 0;
+   		}
+
+   		p{
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:300;
+			font-size:1em;
+			padding:0 20px 0 20px;
+			text-align:left;
+   		}
+
+   		h3{
+			color:$light-blue-color;
+			font-family: $campton-bold, Arial, Helvetica, sans-serif;
+			padding: 20px 20px 0 20px;
+			font-size:1.5em;
+			text-align:left;
+			margin:20px 0 0 0;
+   		}
+
+   		button{
+   			background-color:transparent;
+   			border:1px solid #e4e4e4;
+   			height:40px;
+   			width:120px;
+   			margin: 30px 0 50px 20px;
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;	
+			color:#0e0e0e;
+			float:left;
+
+   		}
+   		
+   		button{
+   			outline:none;
+   		}
+
+   		img{
+   			width:80%;
+   			padding: 40px 0 10px 0;
+   		}
+   }
+
 
 /* SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
    SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  
@@ -1053,6 +1116,62 @@ body{
 
 		}
 
+/* INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   	*/
+
+
+   .individual-work-gallery{
+
+   		text-align:center;
+
+   		h2{
+   			color:$light-blue-color;
+			font-family: $campton-bold, Arial, Helvetica, sans-serif;
+			padding: 20px 20px 0 20px;
+			font-size:2em;
+			text-align:left;
+			display:flex;
+			width:50%;
+   		}
+
+   		p{
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:300;
+			font-size:1em;
+			line-height:1.4em;
+			padding:0 20px 0 20px;
+			text-align:left;
+			display:flex;
+			width:50%;
+   		}
+
+   		h3{
+   			float:left;
+   			width:50%;
+			padding: 20px 20px 15px 20px;
+   		}
+
+   		img{
+   			width:40%;
+   			margin:-300px 0 0 0;
+   			display:flex;
+   		}
+
+		button{
+   			height:40px;
+   			width:120px;
+   			margin: 30px 0 50px 20px;
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			clear:left;
+   		}
+
+   		button:hover{
+   			background-color:#0e0e0e;
+   			color:white;
+   		}
+   }
+
 /* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
    CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
    CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
@@ -1220,12 +1339,12 @@ body{
 			}
 
 			#design-icon{
-				margin:-350px 0 0 25px;
+				margin:-355px 0 0 25px;
 				animation-delay:2.8s;
 			}
 
 			#dev-icon{
-				margin:-455px 0 0 130px;
+				margin:-455px 0 0 125px;
 				animation-delay:3s;
 
 			}
@@ -1322,6 +1441,50 @@ body{
 	.services-packages{
 
 	}
+
+/* INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   	*/
+
+
+   .individual-work-gallery{
+
+
+   		h2{
+
+			padding: 40px 20px 0 80px;
+			font-size:2em;
+   		}
+
+   		p{
+			font-weight:300;
+			font-size:1.1em;
+			line-height:1.5em;
+			padding:0 20px 0 80px;
+
+   		}
+
+   		h3{
+   			font-size:1.7em;
+   			width:50%;
+   			padding:30px 0 20px 80px;
+   		}
+
+   		img{
+   			width:40%;
+   			margin:-340px 0 0 0;
+   			max-width:550px;
+   		}
+
+		button{
+   			height:40px;
+   			width:120px;
+   			margin:40px 0 30px 80px;
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			clear:left;
+   		}
+
+   }
 
 
 /* ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US 
@@ -1579,6 +1742,37 @@ body{
 		}
 
 	}
+
+/* INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
+   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   	*/
+
+
+   .individual-work-gallery{
+
+
+   		h2{
+
+   		}
+
+   		p{
+
+   		}
+
+   		h3{
+
+   		}
+
+   		img{
+   			width:40%;
+   			margin:-290px 0 0 0;
+   			max-width:550px;
+   		}
+
+		button{
+  
+   		}
+   }
 /* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
    CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
    CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	*/
