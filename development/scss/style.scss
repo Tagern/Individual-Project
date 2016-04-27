@@ -7,8 +7,26 @@
    GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  
    GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  GLOBAL  */	
 
+body#home a#homenav,
+body#work a#worknav,
+body#services a#servicenav,
+body#about a#aboutnav,
+body#contact a#contactnav {
+	
+	font-weight:600;
+}
+
+
 a{
 	text-decoration:none;
+}
+
+input:focus{
+	outline:none;
+}
+
+textarea:focus{
+	outline:none;
 }
 
 header{
@@ -16,8 +34,8 @@ header{
 		text-align:center;
 
 		img{
-			width:380px;
-			margin:-30px 0 -30px 0;
+			width:325px;
+			margin:0px 0 -10px 0;
 		}
 	}
 
@@ -86,6 +104,9 @@ body{
 	  margin-left:30px;
 	}
 
+	.short-logo{
+		margin-right:45px;	
+	}
 }
 
 #line{
@@ -124,7 +145,7 @@ body{
 	span{
 		font-family: $campton-bold;
 		color:black;
-		text-decoration:none;
+		text-decoration:underline;
 	}
 
 	p{
@@ -160,6 +181,7 @@ body{
 	span{
 		font-family:'arial';
 		color:white;
+    	text-decoration: none;
 	}
 }
 
@@ -170,7 +192,7 @@ body{
 .homepage-main{
 
 	background-color:#f9f9f9;
-	margin-top:1px;
+	margin-top:5px;
 	padding:50px 0 0 0;
 	text-align:center;
 
@@ -184,7 +206,7 @@ body{
 		font-family: $campton-bold;
 		color:$primary-color;
 		font-size:1.8em;
-		margin: 80px 0 60px 0;
+		margin: 80px 15px 60px 15px;
 	}
 
 	.home-gif-container{
@@ -235,7 +257,7 @@ body{
 
 	h2{
 		font-family:$campton-bold;
-		font-size:2.2em;
+		font-size:2em;
 		text-align:left;
 		width:90%;
 		margin:30px 0 30px 20px;
@@ -298,7 +320,7 @@ body{
 
    .work-main{
 
-   		margin-top:1px;
+   		margin-top:5px;
 		background-color:$light-color;
 		padding:15px 0 30px 0;
 	
@@ -306,12 +328,12 @@ body{
 			text-align:center;
 			font-family: $campton-bold, Arial, Helvetica, sans-serif;
 			color:$primary-color;
-			font-size:3em;
+			font-size:3.5em;
 			margin: 140px 0 30px 0;
 		}
 
 		h2{
-			font-size:1em;
+			font-size:1.1em;
 			text-align:center;
 			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			padding: 0 5px 0 5px;
@@ -323,19 +345,60 @@ body{
    .work-gallery{
 
    		text-align: center;
-   		padding:30px 0 10px 0;
+   		padding:60px 0 60px 0;
 
    		.project-thumbnail{
    			border:1px solid transparent;
-   			width:400px;
+   			width:375px;
    			height:250px;
-   			background-color:$secondary-color;
    			display:inline-block;
+   			z-index:-100;
    		}
+
 
    		#work-thumbnail-jemma{
    			background-image: url("../img/client-websites/jemma/jemma-thumbnail.png");
    			background-size:cover;
+   		}
+
+   		#work-thumbnail-sts{
+   			background-image: url("../img/client-websites/sts/sts-thumbnail.png");	
+			background-repeat: no-repeat;
+			background-size:cover;
+   		}
+
+   		.overlay{
+   			position:absolute;
+   			width:375px;
+   			height:250px;
+   			opacity:1;
+   			background-color: rgba(27,21,62,.7);
+			 -o-transition:.5s;
+			  -ms-transition:.5s;
+			  -moz-transition:.5s;
+			  -webkit-transition:.5s;
+			  transition:.5s;
+
+   			h2{
+				font-family: $campton-light, Arial, Helvetica, sans-serif;
+				color:white;
+				padding:23% 0 0 0;
+				font-size:2em;
+				opacity:1;
+				 -o-transition:.3s;
+				  -ms-transition:.3s;
+				  -moz-transition:.3s;
+				  -webkit-transition:.3s;
+				  transition:.3s;
+   			}
+   		}
+
+   		.project-thumbnail:hover .overlay{
+   			opacity:1;
+   		} 
+
+   		.project-thumbnail:hover h2{
+   			opacity:1;
    		}
    }
 
@@ -348,13 +411,21 @@ body{
    		}
 
    		p{
-		font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
-		font-weight:400;
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:400;
+			font-size:1em;
+			line-height:1.5em;
+			padding:0 0 20px 0;
+			width:80%;
+			margin:0 auto;
    		}
 
    		h3{
-		font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
-		font-weight:500;
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:600;
+			font-size:1em;
+			width:90%;
+			margin:0 auto;
 
    		}
    }
@@ -385,6 +456,12 @@ body{
 			text-align:left;
    		}
 
+		p span{
+   			margin:30px 0 50px 0;
+   			font-style:italic;
+   			float:left;
+		}
+
    		h3{
 			color:$light-blue-color;
 			font-family: $campton-bold, Arial, Helvetica, sans-serif;
@@ -414,6 +491,55 @@ body{
    			width:80%;
    			padding: 40px 0 10px 0;
    		}
+
+   		.arrow-right{
+   			background-color:$light-blue-color;
+   			opacity:.5;
+   			width:50px;
+   			height:50px;
+   			border-radius:10%;
+   			position:absolute;
+   			right:5px;
+   			top:865px;
+
+   			img{
+   				width:30px;
+   				height:30px;
+   				padding:10px 10px 10px 8px;
+   				margin:0;
+   			}
+   		}
+
+   		.arrow-right:hover{
+   			background-color:$primary-color;
+   			opacity:1;
+   		}
+
+   		.arrow-left{
+   			background-color:$light-blue-color;
+   			opacity:.5;
+   			width:50px;
+   			height:50px;
+   			border-radius:10%;
+   			position:absolute;
+   			left:5px;
+   			top:865px;
+
+   			img{
+   				width:30px;
+   				height:30px;
+   				padding:10px 10px 10px 8px;
+   				margin:0;
+			    -ms-transform: rotate(180deg); /* IE 9 */
+			    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+			    transform: rotate(180deg);
+   			}
+   		}
+
+   		.arrow-left:hover{
+   			background-color:$primary-color;
+   			opacity:1;
+   		}
    }
 
 
@@ -422,7 +548,7 @@ body{
    SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  SERVICES  */
 
    .services-main{
-   		margin-top:1px;
+   		margin-top:5px;
 		background-color:$light-color;
 		padding:15px 0 30px 0;
 	
@@ -498,7 +624,7 @@ body{
 
 		h3{
 			font-family: $campton-light;
-			font-size:1em;
+			font-size:1.1em;
 			margin:20px 0 30px 0;
 		}
 	}
@@ -600,7 +726,7 @@ body{
    ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US  ABOUT US     */
 
 	.about-us-main{
-		margin-top:1px;			
+		margin-top:5px;			
 		background-color:$light-color;
 		padding:15px 0 30px 0;
 
@@ -664,6 +790,7 @@ body{
 
 		h4{
 			font-family: $campton-light, Arial, Helvetica, sans-serif;
+			font-size:1.1em;
 		}
 
 		img{
@@ -692,6 +819,10 @@ body{
 			padding:0;
 		}
 
+		#moving-cog{
+			cursor: pointer; cursor: hand;
+		}
+
 		#value-1 h3{
 			color:$primary-color;
 		}
@@ -715,7 +846,7 @@ body{
 		background-color:$light-color;
 		padding:15px 0 30px 0;
 		text-align:center;
-		margin:0 auto;		
+		margin-top:5px;	
 
 		h1{
 
@@ -762,10 +893,10 @@ body{
 		}
 
 		p{
-			margin:5px;
-			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			margin:5px 5px 20px 5px;
+			font-family: $campton-light, Arial, Helvetica, sans-serif;
 			font-weight:300;
-			text-align:left;
+			text-align:center;
 		}
 
 		input{
@@ -861,7 +992,7 @@ body{
 	header{
 
 		img{
-			width:450px;
+			width:375px;
 		}
 	}
 
@@ -1116,6 +1247,64 @@ body{
 
 		}
 
+/* WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	
+   WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  
+   WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	*/
+
+   .work-testimonial{
+
+   		h2{
+			font-size:2em;
+			color:$light-blue-color;
+   		}
+
+   		p{
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:400;
+			font-size:1em;
+			line-height:1.5em;
+			padding:0 50px 20px 50px;
+
+   		}
+
+   		h3{
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:500;
+			font-size:1.1em;
+
+   		}
+   	}
+ 	
+ 	.work-gallery{
+
+
+   		.project-thumbnail{
+   			border:1px solid transparent;
+   			width:375px;
+   			height:250px;
+   			display:inline-block;
+   			z-index:-100;
+   		}
+
+   		.overlay{
+   			opacity:0;
+   			background-color: rgba(27,21,62,.7);
+
+
+   			h2{
+				opacity:0;
+   			}
+   		}
+
+   		.project-thumbnail:hover .overlay{
+   			opacity:1;
+   		} 
+
+   		.project-thumbnail:hover h2{
+   			opacity:1;
+   		}
+   }
+
 /* INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
    INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
    INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   	*/
@@ -1170,6 +1359,15 @@ body{
    			background-color:#0e0e0e;
    			color:white;
    		}
+
+
+		.arrow-left{
+   			top:665px;
+   		}
+
+		.arrow-right{
+   			top:665px;
+   		}
    }
 
 /* CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	CONTACT	
@@ -1220,7 +1418,7 @@ body{
 		}
 
 		p{
-			margin:5px;
+			margin:5px 5px 20px 5px;
 			text-align:center;
 		}
 
@@ -1278,8 +1476,8 @@ body{
 	header{
 
 		img{
-			width:500px;
-			margin:-30px 0 -30px 0;
+			width:430px;
+			margin:0px 0 -20px 0;
 
 		}
 
@@ -1312,14 +1510,15 @@ body{
 		.homepage-gif{
 			width:500px;
 			height:400px;
-			margin: 40px 30px 70px 0px;
+			margin: 80px 30px 70px 0px;
 		}
 	
 		h1{
 			text-align:left;
 			color:$primary-color;
-			font-size:2.6em;
-			margin: 160px 0 80px 30px;
+			font-size:2.8em;
+			line-height:1.2em;
+			margin: 190px 0 80px 30px;
 			width:700px;
 		}
 
@@ -1350,17 +1549,17 @@ body{
 			}
 
 			#commerce-icon{
-				margin: -260px 0 0 460px;
+				margin: -260px 0 0 430px;
 				animation-delay:3.8s;
 			}
 
 			#cms-icon{
-				margin: -180px 0 0 440px;
+				margin: -180px 0 0 410px;
 				animation-delay:3.2s;
 			}
 
 			#ux-icon{
-				margin: -155px 0 0 360px;
+				margin: -155px 0 0 330px;
 				animation-delay:3.4s;
 			}
 		}
@@ -1417,7 +1616,7 @@ body{
 			font-size:1.1em;
 			text-align:center;
 			padding: 0 5px 0 5px;
-			margin:0 0 40px 0;
+			margin:0 0 30px 0;
 
 		}
 
@@ -1440,7 +1639,61 @@ body{
 
 	.services-packages{
 
+		.package-title h2 {
+		    font-size: 2.5em;
+		    margin: 70px 0 30px 0;
+		}
 	}
+	
+	.all-packages{
+		margin:50px 20px 40px 20px;
+		width:265px;
+	}
+
+
+/* WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	
+   WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  
+   WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	  WORK	*/
+
+   .work-main{
+   
+   }
+
+   .work-gallery{
+
+   		text-align: center;
+   		padding:60px 0 60px 0;
+
+   		.project-thumbnail{
+   			width:375px;
+   			height:250px;
+   			margin:0 50px 0 50px;
+   		}
+
+   }
+
+   .work-testimonial{
+   		text-align:center;
+   		h2{
+			font-family: $campton-bold, Arial, Helvetica, sans-serif;
+			font-size:2.5em;
+			color:$light-blue-color;
+   		}
+
+   		p{
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:400;
+			font-size:1.1em;
+			width:60%;
+   		}
+
+   		h3{
+			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
+			font-weight:500;
+			padding:0 0 20px 0;
+
+   		}
+   }
 
 /* INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
    INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   INDIVIDUAL WORK   
@@ -1483,6 +1736,7 @@ body{
 			font-family: 'Raleway', sans-serif, Arial, Helvetica, sans-serif;
 			clear:left;
    		}
+
 
    }
 
@@ -1607,8 +1861,9 @@ body{
 		}
 
 		p{
-			margin:5px;
+			margin:5px 5px 20px 5px;
 			text-align:center;
+			font-size:1.1em;
 		}
 
 		input{
@@ -1789,7 +2044,7 @@ body{
 		}
 
 		p{
-			margin:5px;
+			margin:5px 5px 20px 5px;
 			text-align:center;
 		}
 

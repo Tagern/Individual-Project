@@ -17,29 +17,26 @@
         <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
     </head>
-    <body>
+    <body id="contact">
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
         <!-- Add your site or application content here -->
         <header>
-            <a href="index.html"><img class="top-logo" src="img/logo-long.png"/></a>
+            <a href="index.html"><img class="top-logo" src="img/final-logo.svg"/></a>
         </header>
 
         <nav class="navigation">
         <br/>
             <div class="row">
-                <div class="nav-icon">
-                    <a href="index.html">Home</a>
-                    <a href="work.html">Work</a>
-                    <a href="services.html">Services</a>
-                    <a href="about-us.html">About us</a>
-                    <a href="#">Contact</a>
-                </div>
-
+                <a href="index.html" id="homenav">Home</a>
+                <a href="work.html" id="worknav">Work</a>
+                <a href="services.html" id="servicenav">Services</a>
+                <a href="about-us.html" id="aboutnav">About us</a>
+                <a href="#" id="contactnav">Contact</a>
             </div>
-            <div id="line"><img src="img/logo-short.png"/></div>
+            <div id="line"><a href="index.html"><img class="short-logo" src="img/logo-short.png"/></a></div>
         </nav>
 
         <section class="contact-main">    
@@ -63,24 +60,24 @@
                 <div class="row">
                     <div class="contact-text-fields">
                         <span class="fa fa-user"></span>
-                        <input class="col-2" type="text" placeholder="Full name" name="#"/>
+                        <input class="col-2" type="text" placeholder="Full name" name="name"/>
                     </div>
                     <div class="contact-text-fields">
                         <span class="fa fa-globe"></span>
-                        <input class="col-2" type="text" placeholder="Email" name="#"/>
+                        <input class="col-2" type="text" placeholder="Email" name="email"/>
                     </div>
                     <div class="contact-text-fields">
                         <span class="fa fa-phone"></span>
-                        <input class="col-2" type="text" placeholder="Phone" name="#"/>
+                        <input class="col-2" type="text" placeholder="Phone" name="number"/>
                     </div>
                     <div class="contact-text-fields">
                         <span class="fa fa-envelope"></span>
-                        <textarea class="col-4" placeholder="Message" name="#"></textarea>
+                        <textarea class="col-4" placeholder="Message" name="message"></textarea>
                     </div>
 
                 </div>
 
-                    <button>Enquire now</button>
+                    <button type="submit" value="Send">Enquire now</button>
 
             </form>
 

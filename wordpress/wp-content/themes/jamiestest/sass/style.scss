@@ -1,0 +1,498 @@
+/*!
+Theme Name: Jamies Test
+Theme URI: http://underscores.me/
+Author: Jamie Millman
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: jamiestest
+Tags:
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Jamies Test is based on Underscores http://underscores.me/, (C) 2012-2016 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+    ## Posts and pages
+	## Asides
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+@import "variables-site/variables-site";
+@import "mixins/mixins-master";
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+@import "normalize";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/typography";
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+@import "forms/forms";
+
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+@import "navigation/navigation";
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+@import "modules/accessibility";
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+@import "modules/alignments";
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+@import "modules/clearings";
+
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+@import "site/secondary/widgets";
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+@import "site/site";
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+@import "modules/infinite-scroll";
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+@import "media/media";
+
+/*--------------------------------------------------------------
+# Fonts
+--------------------------------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,200,100);
+
+/*--------------------------------------------------------------
+# Structure
+--------------------------------------------------------------*/
+
+
+.menu-toggle {
+   display: none;
+}
+.main-navigation ul {
+   display: block;
+}
+.inner{
+	padding: 0 0px 0 0px;
+}
+
+h1.entry-title {
+    display: none;
+}
+img.alignnone.wp-image-98{
+	margin: 55px 0 0 20px;
+	width:50px;
+}
+	.main-navigation {
+		position:absolute;
+		z-index:100;
+		padding:15px 20px 0 0;
+
+	   ul{
+	   		display: block;
+	   		text-align:right;
+	   		padding-right:30px !important;
+
+	   		a{
+	   			font-family: 'Raleway', sans-serif !important;
+	   			color:white;
+	   			padding:20px 15px 20px 15px !important;
+	   			font-size:1.1em !important;
+	   			font-weight:300 !important;
+	   			text-transform:uppercase;
+
+	   		}
+	   	}
+	}
+
+	#content{
+		margin-top:-65px;
+	}
+
+	#colophon{
+		background-color:#1a1a1a;
+		height:250px;
+		margin-bottom:-16px;
+		text-align:center;
+		
+		.footer-logo{
+			width:60px;
+			padding:60px 0 30px 0;
+		}
+
+		ul{
+			padding:0;
+			margin:0;
+			text-align:center;
+
+			li{
+				text-decoration:none;
+				display:inline-block;
+				padding: 50px 15px 0 15px;
+				font-size: .8em;
+				color:#e4df61;
+				font-family: 'Raleway', sans-serif;
+				font-weight:300;
+			}
+		}
+	}
+
+	.bottom-footer{
+		background-color:#0a0a0a;
+		height:60px;
+
+		p{
+			color:#e4df61;
+			text-align:center;
+			font-family: 'Raleway', sans-serif;
+			font-weight:300;
+			font-size:.9em;
+			padding:4.5% 0 0 0;
+		}
+
+	}
+footer.entry-footer {
+    display: none;
+}
+
+.nav-previous {
+	display:none;
+}
+
+.nav-next {
+	display:none;
+}
+
+div#disqus_thread {
+    padding:0 15px 0 15px;
+}
+
+.post-sidebar{	
+	display:none;
+}
+.post-sidebar-one{	
+	display:none;
+}
+
+.siteorigin-widget-tinymce.textwidget {
+    padding: 0 5% 0 5%;
+}
+
+input.wpcf7-form-control.wpcf7-submit {
+    background-color:transparent;
+    border:1px solid #e4e4e4;
+    width:100px;
+    height:50px;
+    box-shadow:none;
+    font-family:raleway;
+    font-size:1.1em;
+    color:#7d878a;
+    text-shadow:none;
+}
+
+form.wpcf7-form {
+    font-size: .8em;
+    font-family: raleway;
+    font-weight:400;
+}
+
+input{
+	width:100%;
+	height:40px;
+	font-size:.8em;
+}
+
+textarea{
+	width:100%;
+	height:175px;
+}
+
+
+/*--------------------------------------------------------------
+# Responsive
+--------------------------------------------------------------*/
+
+
+@media screen and (min-width: 48.8em) {
+	.menu-toggle {
+
+	}
+
+img.alignnone.wp-image-98{
+	margin: 75px 0 0 50px;
+	width:50px;
+}
+
+	.main-navigation {
+		position:absolute;
+		z-index:100;
+
+	   ul{
+	   		display: block;
+	   		text-align:right;
+	   		padding:0 35px 0 0!important;
+
+	   		a{
+	   			font-family: 'Raleway', sans-serif !important;
+	   			color:white;
+	   			padding:20px 15px 20px 15px !important;
+	   			font-size:1.1em !important;
+	   			font-weight:300 !important;
+	   			text-transform:uppercase;
+
+	   		}
+	   	}
+	}
+
+	.header-area.full{
+
+	}
+
+	nav{
+		color:white;
+	}
+
+	.full{
+	}
+	.main-page{
+		max-width: 100%;
+	}
+	
+	div#primary {
+		margin: -110px 0 0 0;
+	}
+
+	.page-hero{
+		width:100%;
+	}
+	.page-content{
+		
+
+
+
+
+		margin:0 auto;
+
+
+	}
+	.inner{
+		padding:0;
+	}
+	#primary{
+		float:left;
+		padding:0;
+		width: 100%;
+
+	}
+	#secondary{
+		float:right;
+		width: 33.5%;
+	}
+	#home-primary{
+		width:100%;
+		margin:0;
+		padding:0; 
+	}
+
+
+
+.home .entry-title {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+#colophon{
+		background-color:#1a1a1a;
+		height:250px;
+		margin-bottom:-16px;
+		
+
+		ul{
+			padding:0;
+			margin:0;
+			text-align:center;
+
+			li{
+				text-decoration:none;
+				display:inline-block;
+				padding: 20px 20px 0 20px;
+				font-size: 1em;
+				color:#e4df61;
+				font-weight:200;
+			}
+		}
+	}
+
+.bottom-footer{
+		background-color:#0a0a0a;
+		height:60px;
+
+		p{
+			color:#e4df61;
+			text-align:center;
+			font-family: 'Raleway', sans-serif;
+			font-weight:300;
+			font-size:.9em;
+			padding:1.4% 0 0 0;
+		}
+
+	}
+.page-content{
+	padding: 150px 0 0 0;
+}
+
+article{
+
+}
+ /*--------------------------------------------------------------
+# Sidebar
+--------------------------------------------------------------*/
+	
+
+ /*--------------------------------------------------------------
+# Posts	
+--------------------------------------------------------------*/
+
+.siteorigin-widget-tinymce.textwidget {
+    padding: 0 10% 0 10%;
+}
+
+
+.post-sidebar{	
+	display:block;
+	width:60%;
+	margin:-40px 60px 0 0;
+	float:right;
+	border-left:1px solid #f5f5f5;
+	padding: 20px 0 20px 0;
+	
+	h3{
+		background-color:#f1f1f1;
+		padding:15px 0 15px 25px;
+		margin-left:0;
+	}
+	ul{
+
+		padding:0;
+		margin:30px;
+	}
+	a{
+		text-decoration:none;
+	}
+}
+.post-sidebar-one{
+	display:block;	
+	width:60%;
+	margin:20px 60px 0 0;
+	float:right;
+	border-left:1px solid #f5f5f5;
+	padding: 0 0 20px 0;
+	
+	h3{
+		background-color:#f1f1f1;
+		padding:15px 0 15px 25px;
+		margin-left:0;
+	}
+	ul{
+
+		padding:0;
+		margin:30px;
+	}
+	a{
+		text-decoration:none;
+	}
+}
+div#disqus_thread {
+    padding:0 75px 0 75px;
+}
+
+ /*--------------------------------------------------------------
+# Contact	
+--------------------------------------------------------------*/
+
+input.wpcf7-form-control.wpcf7-submit {
+    background-color:transparent;
+    border:1px solid #e4e4e4;
+    width:100px;
+    height:50px;
+    box-shadow:none;
+    font-family:raleway;
+    font-size:1.1em;
+    color:#7d878a;
+    text-shadow:none;
+}
+input.wpcf7-form-control.wpcf7-submit:hover {
+	background-color:#7d878a;
+	color:white;
+}
+
+form.wpcf7-form {
+    font-size: .8em;
+    font-family: raleway;
+    font-weight:400;
+}
+
+input{
+	width:90%;
+	font-size:.8em;
+}
+
+textarea{
+	width:90%;
+	height:175px;
+}
+
+
+}
