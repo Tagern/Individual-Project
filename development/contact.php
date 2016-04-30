@@ -58,23 +58,23 @@
 
             <h2 id="contact-area">Contact us below</h2>
             <p>Feel free to email us regarding any sized project</p>
-            <form action="contact.php" method="post">
+            <form action="contact.php#contact-area" method="post">
                 <div class="row">
                     <div class="contact-text-fields">
                         <span class="fa fa-user"></span>
-                        <input class="col-2" type="text" placeholder="Full name" name="name"/>
+                        <input class="col-2" type="text" placeholder="Full name" name="name" required/>
                     </div>
                     <div class="contact-text-fields">
                         <span class="fa fa-globe"></span>
-                        <input class="col-2" type="text" placeholder="Email" name="email"/>
+                        <input class="col-2" type="text" placeholder="Email" name="email" required/>
                     </div>
                     <div class="contact-text-fields">
                         <span class="fa fa-cog"></span>
-                        <input class="col-2" type="text" placeholder="Subject" name="subject"/>
+                        <input class="col-2" type="text" placeholder="Subject" name="subject" required/>
                     </div>
                     <div class="contact-text-fields">
                         <span class="fa fa-envelope"></span>
-                        <textarea class="col-4" placeholder="Message" name="message"></textarea>
+                        <textarea class="col-4" placeholder="Message" name="message" required></textarea>
                     </div>
 
                 </div>
