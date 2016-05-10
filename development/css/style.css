@@ -708,6 +708,11 @@ body {
     display: inline-block;
     margin: 0 0 30px 10px; }
 
+  .copyright span {
+    font-family: 'arial';
+    color: white;
+    text-decoration: none; }
+
   /* HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
      HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  
      HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  HOMEPAGE  */
